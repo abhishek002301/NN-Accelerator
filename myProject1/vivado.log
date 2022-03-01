@@ -1,0 +1,1767 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Mar  1 17:43:31 2022
+# Process ID: 17180
+# Current directory: E:/NN Accelerator/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22780 E:\NN Accelerator\myProject1\myProject1.xpr
+# Log file: E:/NN Accelerator/myProject1/vivado.log
+# Journal file: E:/NN Accelerator/myProject1\vivado.jou
+# Running On: AbhishekPC, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 17018 MB
+#-----------------------------------------------------------
+start_guiopen_project {E:/NN Accelerator/myProject1/myProject1.xpr}
+WWARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not availableWWARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not availableWARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/NN Accelerator/myProject1/myProject1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2021.2/data/ip'.
+oopen_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 1569.488 ; gain = 0.000uupdate_compile_order -fileset sources_1exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  1 17:57:31 2022...
+..
+Run output will be captured here: E:/NN Accelerator/myProject1/myProject1.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_sim'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1569.488 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_awaddr' [E:/NN Accelerator/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_awprot' [E:/NN Accelerator/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_araddr' [E:/NN Accelerator/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_arprot' [E:/NN Accelerator/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'radd' [E:/NN Accelerator/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'i_valid' [E:/NN Accelerator/src/fpga/rtl/zynet.v:378]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1569.488 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 0.000000, Detected number: 2, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 60.000000, Detected number: 2, Expected: 0004
+6. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+7. Accuracy: 71.428571, Detected number: 4, Expected: 0004
+8. Accuracy: 62.500000, Detected number: 4, Expected: 0009
+9. Accuracy: 55.555556, Detected number: 3, Expected: 0005
+10. Accuracy: 50.000000, Detected number: 5, Expected: 0009
+11. Accuracy: 54.545455, Detected number: 0, Expected: 0000
+12. Accuracy: 50.000000, Detected number: 5, Expected: 0006
+13. Accuracy: 46.153846, Detected number: 4, Expected: 0009
+14. Accuracy: 50.000000, Detected number: 0, Expected: 0000
+15. Accuracy: 53.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 56.250000, Detected number: 5, Expected: 0005
+17. Accuracy: 58.823529, Detected number: 9, Expected: 0009
+18. Accuracy: 55.555556, Detected number: 2, Expected: 0007
+19. Accuracy: 57.894737, Detected number: 3, Expected: 0003
+20. Accuracy: 60.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 61.904762, Detected number: 9, Expected: 0009
+22. Accuracy: 59.090909, Detected number: 3, Expected: 0006
+23. Accuracy: 56.521739, Detected number: 0, Expected: 0006
+24. Accuracy: 54.166667, Detected number: 0, Expected: 0005
+25. Accuracy: 52.000000, Detected number: 9, Expected: 0004
+26. Accuracy: 53.846154, Detected number: 0, Expected: 0000
+27. Accuracy: 55.555556, Detected number: 7, Expected: 0007
+28. Accuracy: 53.571429, Detected number: 2, Expected: 0004
+29. Accuracy: 55.172414, Detected number: 0, Expected: 0000
+30. Accuracy: 56.666667, Detected number: 1, Expected: 0001
+31. Accuracy: 54.838710, Detected number: 2, Expected: 0003
+32. Accuracy: 53.125000, Detected number: 3, Expected: 0001
+33. Accuracy: 51.515152, Detected number: 2, Expected: 0003
+34. Accuracy: 50.000000, Detected number: 6, Expected: 0004
+35. Accuracy: 48.571429, Detected number: 2, Expected: 0007
+36. Accuracy: 50.000000, Detected number: 2, Expected: 0002
+37. Accuracy: 51.351351, Detected number: 7, Expected: 0007
+38. Accuracy: 52.631579, Detected number: 1, Expected: 0001
+39. Accuracy: 53.846154, Detected number: 2, Expected: 0002
+40. Accuracy: 55.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 56.097561, Detected number: 1, Expected: 0001
+42. Accuracy: 57.142857, Detected number: 7, Expected: 0007
+43. Accuracy: 58.139535, Detected number: 4, Expected: 0004
+44. Accuracy: 56.818182, Detected number: 1, Expected: 0002
+45. Accuracy: 55.555556, Detected number: 2, Expected: 0003
+46. Accuracy: 54.347826, Detected number: 3, Expected: 0005
+47. Accuracy: 55.319149, Detected number: 1, Expected: 0001
+48. Accuracy: 56.250000, Detected number: 2, Expected: 0002
+49. Accuracy: 57.142857, Detected number: 4, Expected: 0004
+50. Accuracy: 58.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 56.862745, Detected number: 5, Expected: 0006
+52. Accuracy: 57.692308, Detected number: 3, Expected: 0003
+53. Accuracy: 58.490566, Detected number: 5, Expected: 0005
+54. Accuracy: 59.259259, Detected number: 5, Expected: 0005
+55. Accuracy: 58.181818, Detected number: 2, Expected: 0006
+56. Accuracy: 58.928571, Detected number: 0, Expected: 0000
+57. Accuracy: 59.649123, Detected number: 4, Expected: 0004
+58. Accuracy: 60.344828, Detected number: 1, Expected: 0001
+59. Accuracy: 61.016949, Detected number: 9, Expected: 0009
+60. Accuracy: 61.666667, Detected number: 5, Expected: 0005
+61. Accuracy: 62.295082, Detected number: 7, Expected: 0007
+62. Accuracy: 61.290323, Detected number: 2, Expected: 0008
+63. Accuracy: 60.317460, Detected number: 5, Expected: 0009
+64. Accuracy: 59.375000, Detected number: 2, Expected: 0003
+65. Accuracy: 60.000000, Detected number: 7, Expected: 0007
+66. Accuracy: 59.090909, Detected number: 9, Expected: 0004
+67. Accuracy: 58.208955, Detected number: 5, Expected: 0006
+68. Accuracy: 57.352941, Detected number: 2, Expected: 0004
+69. Accuracy: 56.521739, Detected number: 2, Expected: 0003
+70. Accuracy: 57.142857, Detected number: 0, Expected: 0000
+71. Accuracy: 56.338028, Detected number: 2, Expected: 0007
+72. Accuracy: 56.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 56.164384, Detected number: 0, Expected: 0002
+74. Accuracy: 55.405405, Detected number: 1, Expected: 0009
+75. Accuracy: 56.000000, Detected number: 1, Expected: 0001
+76. Accuracy: 55.263158, Detected number: 2, Expected: 0007
+77. Accuracy: 55.844156, Detected number: 3, Expected: 0003
+78. Accuracy: 56.410256, Detected number: 2, Expected: 0002
+79. Accuracy: 55.696203, Detected number: 3, Expected: 0009
+80. Accuracy: 55.000000, Detected number: 2, Expected: 0007
+81. Accuracy: 55.555556, Detected number: 7, Expected: 0007
+82. Accuracy: 54.878049, Detected number: 5, Expected: 0006
+83. Accuracy: 55.421687, Detected number: 2, Expected: 0002
+84. Accuracy: 55.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 55.294118, Detected number: 3, Expected: 0008
+86. Accuracy: 55.813953, Detected number: 4, Expected: 0004
+87. Accuracy: 55.172414, Detected number: 3, Expected: 0007
+88. Accuracy: 54.545455, Detected number: 2, Expected: 0003
+89. Accuracy: 53.932584, Detected number: 5, Expected: 0006
+90. Accuracy: 54.444444, Detected number: 1, Expected: 0001
+91. Accuracy: 54.945055, Detected number: 3, Expected: 0003
+92. Accuracy: 54.347826, Detected number: 5, Expected: 0006
+93. Accuracy: 53.763441, Detected number: 8, Expected: 0009
+94. Accuracy: 53.191489, Detected number: 2, Expected: 0003
+95. Accuracy: 53.684211, Detected number: 1, Expected: 0001
+96. Accuracy: 53.125000, Detected number: 2, Expected: 0004
+97. Accuracy: 53.608247, Detected number: 1, Expected: 0001
+98. Accuracy: 53.061224, Detected number: 1, Expected: 0007
+99. Accuracy: 52.525253, Detected number: 5, Expected: 0006
+100. Accuracy: 53.000000, Detected number: 9, Expected: 0009
+Accuracy: 53.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 3, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+7. Accuracy: 85.714286, Detected number: 4, Expected: 0004
+8. Accuracy: 87.500000, Detected number: 9, Expected: 0009
+9. Accuracy: 77.777778, Detected number: 9, Expected: 0005
+10. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 81.818182, Detected number: 0, Expected: 0000
+12. Accuracy: 75.000000, Detected number: 5, Expected: 0006
+13. Accuracy: 76.923077, Detected number: 9, Expected: 0009
+14. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+15. Accuracy: 80.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 81.250000, Detected number: 5, Expected: 0005
+17. Accuracy: 82.352941, Detected number: 9, Expected: 0009
+18. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+19. Accuracy: 78.947368, Detected number: 8, Expected: 0003
+20. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 5, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 6, Expected: 0004
+35. Accuracy: 80.000000, Detected number: 3, Expected: 0007
+36. Accuracy: 80.555556, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 7, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 79.487179, Detected number: 6, Expected: 0002
+40. Accuracy: 80.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 80.487805, Detected number: 1, Expected: 0001
+42. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+43. Accuracy: 81.395349, Detected number: 4, Expected: 0004
+44. Accuracy: 79.545455, Detected number: 1, Expected: 0002
+45. Accuracy: 77.777778, Detected number: 2, Expected: 0003
+46. Accuracy: 78.260870, Detected number: 5, Expected: 0005
+47. Accuracy: 78.723404, Detected number: 1, Expected: 0001
+48. Accuracy: 79.166667, Detected number: 2, Expected: 0002
+49. Accuracy: 79.591837, Detected number: 4, Expected: 0004
+50. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 80.392157, Detected number: 6, Expected: 0006
+52. Accuracy: 80.769231, Detected number: 3, Expected: 0003
+53. Accuracy: 81.132075, Detected number: 5, Expected: 0005
+54. Accuracy: 81.481481, Detected number: 5, Expected: 0005
+55. Accuracy: 81.818182, Detected number: 6, Expected: 0006
+56. Accuracy: 82.142857, Detected number: 0, Expected: 0000
+57. Accuracy: 82.456140, Detected number: 4, Expected: 0004
+58. Accuracy: 82.758621, Detected number: 1, Expected: 0001
+59. Accuracy: 83.050847, Detected number: 9, Expected: 0009
+60. Accuracy: 81.666667, Detected number: 8, Expected: 0005
+61. Accuracy: 81.967213, Detected number: 7, Expected: 0007
+62. Accuracy: 80.645161, Detected number: 2, Expected: 0008
+63. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+64. Accuracy: 81.250000, Detected number: 3, Expected: 0003
+65. Accuracy: 81.538462, Detected number: 7, Expected: 0007
+66. Accuracy: 80.303030, Detected number: 9, Expected: 0004
+67. Accuracy: 80.597015, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 4, Expected: 0004
+69. Accuracy: 81.159420, Detected number: 3, Expected: 0003
+70. Accuracy: 81.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 81.690141, Detected number: 7, Expected: 0007
+72. Accuracy: 81.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 80.821918, Detected number: 0, Expected: 0002
+74. Accuracy: 81.081081, Detected number: 9, Expected: 0009
+75. Accuracy: 81.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 81.578947, Detected number: 7, Expected: 0007
+77. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+78. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 82.278481, Detected number: 9, Expected: 0009
+80. Accuracy: 81.250000, Detected number: 6, Expected: 0007
+81. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+82. Accuracy: 80.487805, Detected number: 0, Expected: 0006
+83. Accuracy: 80.722892, Detected number: 2, Expected: 0002
+84. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 81.176471, Detected number: 8, Expected: 0008
+86. Accuracy: 81.395349, Detected number: 4, Expected: 0004
+87. Accuracy: 81.609195, Detected number: 7, Expected: 0007
+88. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+89. Accuracy: 82.022472, Detected number: 6, Expected: 0006
+90. Accuracy: 82.222222, Detected number: 1, Expected: 0001
+91. Accuracy: 82.417582, Detected number: 3, Expected: 0003
+92. Accuracy: 82.608696, Detected number: 6, Expected: 0006
+93. Accuracy: 81.720430, Detected number: 4, Expected: 0009
+94. Accuracy: 81.914894, Detected number: 3, Expected: 0003
+95. Accuracy: 82.105263, Detected number: 1, Expected: 0001
+96. Accuracy: 82.291667, Detected number: 4, Expected: 0004
+97. Accuracy: 81.443299, Detected number: 9, Expected: 0001
+98. Accuracy: 80.612245, Detected number: 1, Expected: 0007
+99. Accuracy: 80.808081, Detected number: 6, Expected: 0006
+100. Accuracy: 80.000000, Detected number: 7, Expected: 0009
+Accuracy: 80.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 1, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 60.000000, Detected number: 0, Expected: 0004
+6. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+7. Accuracy: 71.428571, Detected number: 4, Expected: 0004
+8. Accuracy: 62.500000, Detected number: 7, Expected: 0009
+9. Accuracy: 66.666667, Detected number: 5, Expected: 0005
+10. Accuracy: 60.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 63.636364, Detected number: 0, Expected: 0000
+12. Accuracy: 66.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 69.230769, Detected number: 9, Expected: 0009
+14. Accuracy: 71.428571, Detected number: 0, Expected: 0000
+15. Accuracy: 73.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 75.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 9, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 8, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 2, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+40. Accuracy: 82.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 82.926829, Detected number: 1, Expected: 0001
+42. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+43. Accuracy: 81.395349, Detected number: 9, Expected: 0004
+44. Accuracy: 79.545455, Detected number: 1, Expected: 0002
+45. Accuracy: 77.777778, Detected number: 1, Expected: 0003
+46. Accuracy: 76.086957, Detected number: 0, Expected: 0005
+47. Accuracy: 76.595745, Detected number: 1, Expected: 0001
+48. Accuracy: 77.083333, Detected number: 2, Expected: 0002
+49. Accuracy: 75.510204, Detected number: 2, Expected: 0004
+50. Accuracy: 76.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 76.470588, Detected number: 6, Expected: 0006
+52. Accuracy: 76.923077, Detected number: 3, Expected: 0003
+53. Accuracy: 77.358491, Detected number: 5, Expected: 0005
+54. Accuracy: 77.777778, Detected number: 5, Expected: 0005
+55. Accuracy: 78.181818, Detected number: 6, Expected: 0006
+56. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+57. Accuracy: 78.947368, Detected number: 4, Expected: 0004
+58. Accuracy: 79.310345, Detected number: 1, Expected: 0001
+59. Accuracy: 79.661017, Detected number: 9, Expected: 0009
+60. Accuracy: 80.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 80.327869, Detected number: 7, Expected: 0007
+62. Accuracy: 80.645161, Detected number: 8, Expected: 0008
+63. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+64. Accuracy: 81.250000, Detected number: 3, Expected: 0003
+65. Accuracy: 81.538462, Detected number: 7, Expected: 0007
+66. Accuracy: 81.818182, Detected number: 4, Expected: 0004
+67. Accuracy: 82.089552, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 2, Expected: 0004
+69. Accuracy: 81.159420, Detected number: 3, Expected: 0003
+70. Accuracy: 81.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 81.690141, Detected number: 7, Expected: 0007
+72. Accuracy: 81.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 82.191781, Detected number: 2, Expected: 0002
+74. Accuracy: 81.081081, Detected number: 7, Expected: 0009
+75. Accuracy: 81.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 81.578947, Detected number: 7, Expected: 0007
+77. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+78. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 81.012658, Detected number: 8, Expected: 0009
+80. Accuracy: 81.250000, Detected number: 7, Expected: 0007
+81. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+82. Accuracy: 80.487805, Detected number: 0, Expected: 0006
+83. Accuracy: 80.722892, Detected number: 2, Expected: 0002
+84. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 81.176471, Detected number: 8, Expected: 0008
+86. Accuracy: 80.232558, Detected number: 2, Expected: 0004
+87. Accuracy: 80.459770, Detected number: 7, Expected: 0007
+88. Accuracy: 80.681818, Detected number: 3, Expected: 0003
+89. Accuracy: 80.898876, Detected number: 6, Expected: 0006
+90. Accuracy: 81.111111, Detected number: 1, Expected: 0001
+91. Accuracy: 81.318681, Detected number: 3, Expected: 0003
+92. Accuracy: 81.521739, Detected number: 6, Expected: 0006
+93. Accuracy: 80.645161, Detected number: 4, Expected: 0009
+94. Accuracy: 80.851064, Detected number: 3, Expected: 0003
+95. Accuracy: 81.052632, Detected number: 1, Expected: 0001
+96. Accuracy: 80.208333, Detected number: 8, Expected: 0004
+97. Accuracy: 80.412371, Detected number: 1, Expected: 0001
+98. Accuracy: 79.591837, Detected number: 1, Expected: 0007
+99. Accuracy: 79.797980, Detected number: 6, Expected: 0006
+100. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+Accuracy: 80.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 88.888889, Detected number: 6, Expected: 0005
+10. Accuracy: 90.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 90.909091, Detected number: 0, Expected: 0000
+12. Accuracy: 91.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 92.307692, Detected number: 9, Expected: 0009
+14. Accuracy: 92.857143, Detected number: 0, Expected: 0000
+15. Accuracy: 93.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 87.500000, Detected number: 3, Expected: 0005
+17. Accuracy: 88.235294, Detected number: 9, Expected: 0009
+18. Accuracy: 88.888889, Detected number: 7, Expected: 0007
+19. Accuracy: 89.473684, Detected number: 3, Expected: 0003
+20. Accuracy: 90.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 90.476190, Detected number: 9, Expected: 0009
+22. Accuracy: 90.909091, Detected number: 6, Expected: 0006
+23. Accuracy: 91.304348, Detected number: 6, Expected: 0006
+24. Accuracy: 91.666667, Detected number: 5, Expected: 0005
+25. Accuracy: 92.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 92.307692, Detected number: 0, Expected: 0000
+27. Accuracy: 92.592593, Detected number: 7, Expected: 0007
+28. Accuracy: 92.857143, Detected number: 4, Expected: 0004
+29. Accuracy: 93.103448, Detected number: 0, Expected: 0000
+30. Accuracy: 93.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 93.548387, Detected number: 3, Expected: 0003
+32. Accuracy: 93.750000, Detected number: 1, Expected: 0001
+33. Accuracy: 93.939394, Detected number: 3, Expected: 0003
+34. Accuracy: 94.117647, Detected number: 4, Expected: 0004
+35. Accuracy: 94.285714, Detected number: 7, Expected: 0007
+36. Accuracy: 94.444444, Detected number: 2, Expected: 0002
+37. Accuracy: 94.594595, Detected number: 7, Expected: 0007
+38. Accuracy: 94.736842, Detected number: 1, Expected: 0001
+39. Accuracy: 94.871795, Detected number: 2, Expected: 0002
+40. Accuracy: 95.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 95.121951, Detected number: 1, Expected: 0001
+42. Accuracy: 95.238095, Detected number: 7, Expected: 0007
+43. Accuracy: 95.348837, Detected number: 4, Expected: 0004
+44. Accuracy: 95.454545, Detected number: 2, Expected: 0002
+45. Accuracy: 95.555556, Detected number: 3, Expected: 0003
+46. Accuracy: 95.652174, Detected number: 5, Expected: 0005
+47. Accuracy: 95.744681, Detected number: 1, Expected: 0001
+48. Accuracy: 95.833333, Detected number: 2, Expected: 0002
+49. Accuracy: 95.918367, Detected number: 4, Expected: 0004
+50. Accuracy: 96.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 96.078431, Detected number: 6, Expected: 0006
+52. Accuracy: 96.153846, Detected number: 3, Expected: 0003
+53. Accuracy: 96.226415, Detected number: 5, Expected: 0005
+54. Accuracy: 96.296296, Detected number: 5, Expected: 0005
+55. Accuracy: 96.363636, Detected number: 6, Expected: 0006
+56. Accuracy: 96.428571, Detected number: 0, Expected: 0000
+57. Accuracy: 96.491228, Detected number: 4, Expected: 0004
+58. Accuracy: 96.551724, Detected number: 1, Expected: 0001
+59. Accuracy: 96.610169, Detected number: 9, Expected: 0009
+60. Accuracy: 96.666667, Detected number: 5, Expected: 0005
+61. Accuracy: 96.721311, Detected number: 7, Expected: 0007
+62. Accuracy: 96.774194, Detected number: 8, Expected: 0008
+63. Accuracy: 96.825397, Detected number: 9, Expected: 0009
+64. Accuracy: 96.875000, Detected number: 3, Expected: 0003
+65. Accuracy: 96.923077, Detected number: 7, Expected: 0007
+66. Accuracy: 96.969697, Detected number: 4, Expected: 0004
+67. Accuracy: 97.014925, Detected number: 6, Expected: 0006
+68. Accuracy: 97.058824, Detected number: 4, Expected: 0004
+69. Accuracy: 97.101449, Detected number: 3, Expected: 0003
+70. Accuracy: 97.142857, Detected number: 0, Expected: 0000
+71. Accuracy: 97.183099, Detected number: 7, Expected: 0007
+72. Accuracy: 97.222222, Detected number: 0, Expected: 0000
+73. Accuracy: 97.260274, Detected number: 2, Expected: 0002
+74. Accuracy: 97.297297, Detected number: 9, Expected: 0009
+75. Accuracy: 97.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 97.368421, Detected number: 7, Expected: 0007
+77. Accuracy: 97.402597, Detected number: 3, Expected: 0003
+78. Accuracy: 97.435897, Detected number: 2, Expected: 0002
+79. Accuracy: 97.468354, Detected number: 9, Expected: 0009
+80. Accuracy: 97.500000, Detected number: 7, Expected: 0007
+81. Accuracy: 97.530864, Detected number: 7, Expected: 0007
+82. Accuracy: 97.560976, Detected number: 6, Expected: 0006
+83. Accuracy: 97.590361, Detected number: 2, Expected: 0002
+84. Accuracy: 97.619048, Detected number: 7, Expected: 0007
+85. Accuracy: 97.647059, Detected number: 8, Expected: 0008
+86. Accuracy: 97.674419, Detected number: 4, Expected: 0004
+87. Accuracy: 97.701149, Detected number: 7, Expected: 0007
+88. Accuracy: 97.727273, Detected number: 3, Expected: 0003
+89. Accuracy: 97.752809, Detected number: 6, Expected: 0006
+90. Accuracy: 97.777778, Detected number: 1, Expected: 0001
+91. Accuracy: 97.802198, Detected number: 3, Expected: 0003
+92. Accuracy: 97.826087, Detected number: 6, Expected: 0006
+93. Accuracy: 97.849462, Detected number: 9, Expected: 0009
+94. Accuracy: 97.872340, Detected number: 3, Expected: 0003
+95. Accuracy: 97.894737, Detected number: 1, Expected: 0001
+96. Accuracy: 97.916667, Detected number: 4, Expected: 0004
+97. Accuracy: 97.938144, Detected number: 1, Expected: 0001
+98. Accuracy: 97.959184, Detected number: 7, Expected: 0007
+99. Accuracy: 97.979798, Detected number: 6, Expected: 0006
+100. Accuracy: 98.000000, Detected number: 9, Expected: 0009
+Accuracy: 98.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 0.000000, Detected number: 1, Expected: 0007
+2. Accuracy: 0.000000, Detected number: 1, Expected: 0002
+3. Accuracy: 33.333333, Detected number: 1, Expected: 0001
+4. Accuracy: 25.000000, Detected number: 5, Expected: 0000
+5. Accuracy: 20.000000, Detected number: 7, Expected: 0004
+6. Accuracy: 33.333333, Detected number: 1, Expected: 0001
+7. Accuracy: 28.571429, Detected number: 0, Expected: 0004
+8. Accuracy: 25.000000, Detected number: 5, Expected: 0009
+9. Accuracy: 22.222222, Detected number: 2, Expected: 0005
+10. Accuracy: 20.000000, Detected number: 6, Expected: 0009
+11. Accuracy: 18.181818, Detected number: 5, Expected: 0000
+12. Accuracy: 16.666667, Detected number: 1, Expected: 0006
+13. Accuracy: 15.384615, Detected number: 1, Expected: 0009
+14. Accuracy: 14.285714, Detected number: 5, Expected: 0000
+15. Accuracy: 20.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 25.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 23.529412, Detected number: 5, Expected: 0009
+18. Accuracy: 22.222222, Detected number: 1, Expected: 0007
+19. Accuracy: 21.052632, Detected number: 2, Expected: 0003
+20. Accuracy: 20.000000, Detected number: 7, Expected: 0004
+21. Accuracy: 19.047619, Detected number: 0, Expected: 0009
+22. Accuracy: 22.727273, Detected number: 6, Expected: 0006
+23. Accuracy: 26.086957, Detected number: 6, Expected: 0006
+24. Accuracy: 29.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 28.000000, Detected number: 7, Expected: 0004
+26. Accuracy: 26.923077, Detected number: 5, Expected: 0000
+27. Accuracy: 25.925926, Detected number: 1, Expected: 0007
+28. Accuracy: 25.000000, Detected number: 0, Expected: 0004
+29. Accuracy: 24.137931, Detected number: 5, Expected: 0000
+30. Accuracy: 26.666667, Detected number: 1, Expected: 0001
+31. Accuracy: 25.806452, Detected number: 1, Expected: 0003
+32. Accuracy: 28.125000, Detected number: 1, Expected: 0001
+33. Accuracy: 27.272727, Detected number: 1, Expected: 0003
+34. Accuracy: 26.470588, Detected number: 6, Expected: 0004
+35. Accuracy: 25.714286, Detected number: 1, Expected: 0007
+36. Accuracy: 27.777778, Detected number: 2, Expected: 0002
+37. Accuracy: 27.027027, Detected number: 1, Expected: 0007
+38. Accuracy: 28.947368, Detected number: 1, Expected: 0001
+39. Accuracy: 30.769231, Detected number: 2, Expected: 0002
+40. Accuracy: 32.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 34.146341, Detected number: 1, Expected: 0001
+42. Accuracy: 33.333333, Detected number: 1, Expected: 0007
+43. Accuracy: 32.558140, Detected number: 7, Expected: 0004
+44. Accuracy: 34.090909, Detected number: 2, Expected: 0002
+45. Accuracy: 33.333333, Detected number: 2, Expected: 0003
+46. Accuracy: 32.608696, Detected number: 2, Expected: 0005
+47. Accuracy: 31.914894, Detected number: 0, Expected: 0001
+48. Accuracy: 33.333333, Detected number: 2, Expected: 0002
+49. Accuracy: 32.653061, Detected number: 0, Expected: 0004
+50. Accuracy: 32.000000, Detected number: 7, Expected: 0004
+51. Accuracy: 31.372549, Detected number: 5, Expected: 0006
+52. Accuracy: 30.769231, Detected number: 1, Expected: 0003
+53. Accuracy: 32.075472, Detected number: 5, Expected: 0005
+54. Accuracy: 33.333333, Detected number: 5, Expected: 0005
+55. Accuracy: 34.545455, Detected number: 6, Expected: 0006
+56. Accuracy: 33.928571, Detected number: 5, Expected: 0000
+57. Accuracy: 33.333333, Detected number: 0, Expected: 0004
+58. Accuracy: 34.482759, Detected number: 1, Expected: 0001
+59. Accuracy: 33.898305, Detected number: 3, Expected: 0009
+60. Accuracy: 35.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 34.426230, Detected number: 1, Expected: 0007
+62. Accuracy: 33.870968, Detected number: 2, Expected: 0008
+63. Accuracy: 33.333333, Detected number: 0, Expected: 0009
+64. Accuracy: 32.812500, Detected number: 1, Expected: 0003
+65. Accuracy: 32.307692, Detected number: 1, Expected: 0007
+66. Accuracy: 31.818182, Detected number: 6, Expected: 0004
+67. Accuracy: 32.835821, Detected number: 6, Expected: 0006
+68. Accuracy: 32.352941, Detected number: 7, Expected: 0004
+69. Accuracy: 31.884058, Detected number: 1, Expected: 0003
+70. Accuracy: 31.428571, Detected number: 5, Expected: 0000
+71. Accuracy: 30.985915, Detected number: 1, Expected: 0007
+72. Accuracy: 30.555556, Detected number: 5, Expected: 0000
+73. Accuracy: 31.506849, Detected number: 2, Expected: 0002
+74. Accuracy: 31.081081, Detected number: 7, Expected: 0009
+75. Accuracy: 32.000000, Detected number: 1, Expected: 0001
+76. Accuracy: 31.578947, Detected number: 1, Expected: 0007
+77. Accuracy: 31.168831, Detected number: 1, Expected: 0003
+78. Accuracy: 32.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 31.645570, Detected number: 2, Expected: 0009
+80. Accuracy: 31.250000, Detected number: 1, Expected: 0007
+81. Accuracy: 30.864198, Detected number: 1, Expected: 0007
+82. Accuracy: 30.487805, Detected number: 7, Expected: 0006
+83. Accuracy: 31.325301, Detected number: 2, Expected: 0002
+84. Accuracy: 30.952381, Detected number: 1, Expected: 0007
+85. Accuracy: 30.588235, Detected number: 2, Expected: 0008
+86. Accuracy: 30.232558, Detected number: 0, Expected: 0004
+87. Accuracy: 29.885057, Detected number: 1, Expected: 0007
+88. Accuracy: 29.545455, Detected number: 1, Expected: 0003
+89. Accuracy: 30.337079, Detected number: 6, Expected: 0006
+90. Accuracy: 31.111111, Detected number: 1, Expected: 0001
+91. Accuracy: 30.769231, Detected number: 1, Expected: 0003
+92. Accuracy: 30.434783, Detected number: 1, Expected: 0006
+93. Accuracy: 30.107527, Detected number: 2, Expected: 0009
+94. Accuracy: 29.787234, Detected number: 0, Expected: 0003
+95. Accuracy: 30.526316, Detected number: 1, Expected: 0001
+96. Accuracy: 30.208333, Detected number: 0, Expected: 0004
+97. Accuracy: 29.896907, Detected number: 0, Expected: 0001
+98. Accuracy: 29.591837, Detected number: 0, Expected: 0007
+99. Accuracy: 29.292929, Detected number: 2, Expected: 0006
+100. Accuracy: 29.000000, Detected number: 7, Expected: 0009
+Accuracy: 29.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 1, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 60.000000, Detected number: 0, Expected: 0004
+6. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+7. Accuracy: 71.428571, Detected number: 4, Expected: 0004
+8. Accuracy: 62.500000, Detected number: 7, Expected: 0009
+9. Accuracy: 66.666667, Detected number: 5, Expected: 0005
+10. Accuracy: 60.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 63.636364, Detected number: 0, Expected: 0000
+12. Accuracy: 66.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 69.230769, Detected number: 9, Expected: 0009
+14. Accuracy: 71.428571, Detected number: 0, Expected: 0000
+15. Accuracy: 73.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 75.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 9, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 8, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 2, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+40. Accuracy: 82.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 82.926829, Detected number: 1, Expected: 0001
+42. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+43. Accuracy: 81.395349, Detected number: 9, Expected: 0004
+44. Accuracy: 79.545455, Detected number: 1, Expected: 0002
+45. Accuracy: 77.777778, Detected number: 1, Expected: 0003
+46. Accuracy: 76.086957, Detected number: 0, Expected: 0005
+47. Accuracy: 76.595745, Detected number: 1, Expected: 0001
+48. Accuracy: 77.083333, Detected number: 2, Expected: 0002
+49. Accuracy: 75.510204, Detected number: 2, Expected: 0004
+50. Accuracy: 76.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 76.470588, Detected number: 6, Expected: 0006
+52. Accuracy: 76.923077, Detected number: 3, Expected: 0003
+53. Accuracy: 77.358491, Detected number: 5, Expected: 0005
+54. Accuracy: 77.777778, Detected number: 5, Expected: 0005
+55. Accuracy: 78.181818, Detected number: 6, Expected: 0006
+56. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+57. Accuracy: 78.947368, Detected number: 4, Expected: 0004
+58. Accuracy: 79.310345, Detected number: 1, Expected: 0001
+59. Accuracy: 79.661017, Detected number: 9, Expected: 0009
+60. Accuracy: 80.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 80.327869, Detected number: 7, Expected: 0007
+62. Accuracy: 80.645161, Detected number: 8, Expected: 0008
+63. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+64. Accuracy: 81.250000, Detected number: 3, Expected: 0003
+65. Accuracy: 81.538462, Detected number: 7, Expected: 0007
+66. Accuracy: 81.818182, Detected number: 4, Expected: 0004
+67. Accuracy: 82.089552, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 2, Expected: 0004
+69. Accuracy: 81.159420, Detected number: 3, Expected: 0003
+70. Accuracy: 81.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 81.690141, Detected number: 7, Expected: 0007
+72. Accuracy: 81.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 82.191781, Detected number: 2, Expected: 0002
+74. Accuracy: 81.081081, Detected number: 7, Expected: 0009
+75. Accuracy: 81.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 81.578947, Detected number: 7, Expected: 0007
+77. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+78. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 81.012658, Detected number: 8, Expected: 0009
+80. Accuracy: 81.250000, Detected number: 7, Expected: 0007
+81. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+82. Accuracy: 80.487805, Detected number: 0, Expected: 0006
+83. Accuracy: 80.722892, Detected number: 2, Expected: 0002
+84. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 81.176471, Detected number: 8, Expected: 0008
+86. Accuracy: 80.232558, Detected number: 2, Expected: 0004
+87. Accuracy: 80.459770, Detected number: 7, Expected: 0007
+88. Accuracy: 80.681818, Detected number: 3, Expected: 0003
+89. Accuracy: 80.898876, Detected number: 6, Expected: 0006
+90. Accuracy: 81.111111, Detected number: 1, Expected: 0001
+91. Accuracy: 81.318681, Detected number: 3, Expected: 0003
+92. Accuracy: 81.521739, Detected number: 6, Expected: 0006
+93. Accuracy: 80.645161, Detected number: 4, Expected: 0009
+94. Accuracy: 80.851064, Detected number: 3, Expected: 0003
+95. Accuracy: 81.052632, Detected number: 1, Expected: 0001
+96. Accuracy: 80.208333, Detected number: 8, Expected: 0004
+97. Accuracy: 80.412371, Detected number: 1, Expected: 0001
+98. Accuracy: 79.591837, Detected number: 1, Expected: 0007
+99. Accuracy: 79.797980, Detected number: 6, Expected: 0006
+100. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+Accuracy: 80.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 1, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 60.000000, Detected number: 0, Expected: 0004
+6. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+7. Accuracy: 71.428571, Detected number: 4, Expected: 0004
+8. Accuracy: 62.500000, Detected number: 7, Expected: 0009
+9. Accuracy: 66.666667, Detected number: 5, Expected: 0005
+10. Accuracy: 60.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 63.636364, Detected number: 0, Expected: 0000
+12. Accuracy: 66.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 69.230769, Detected number: 9, Expected: 0009
+14. Accuracy: 71.428571, Detected number: 0, Expected: 0000
+15. Accuracy: 73.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 75.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 9, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 8, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 2, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+40. Accuracy: 82.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 82.926829, Detected number: 1, Expected: 0001
+42. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+43. Accuracy: 81.395349, Detected number: 9, Expected: 0004
+44. Accuracy: 79.545455, Detected number: 1, Expected: 0002
+45. Accuracy: 77.777778, Detected number: 1, Expected: 0003
+46. Accuracy: 76.086957, Detected number: 0, Expected: 0005
+47. Accuracy: 76.595745, Detected number: 1, Expected: 0001
+48. Accuracy: 77.083333, Detected number: 2, Expected: 0002
+49. Accuracy: 75.510204, Detected number: 2, Expected: 0004
+50. Accuracy: 76.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 76.470588, Detected number: 6, Expected: 0006
+52. Accuracy: 76.923077, Detected number: 3, Expected: 0003
+53. Accuracy: 77.358491, Detected number: 5, Expected: 0005
+54. Accuracy: 77.777778, Detected number: 5, Expected: 0005
+55. Accuracy: 78.181818, Detected number: 6, Expected: 0006
+56. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+57. Accuracy: 78.947368, Detected number: 4, Expected: 0004
+58. Accuracy: 79.310345, Detected number: 1, Expected: 0001
+59. Accuracy: 79.661017, Detected number: 9, Expected: 0009
+60. Accuracy: 80.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 80.327869, Detected number: 7, Expected: 0007
+62. Accuracy: 80.645161, Detected number: 8, Expected: 0008
+63. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+64. Accuracy: 81.250000, Detected number: 3, Expected: 0003
+65. Accuracy: 81.538462, Detected number: 7, Expected: 0007
+66. Accuracy: 81.818182, Detected number: 4, Expected: 0004
+67. Accuracy: 82.089552, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 2, Expected: 0004
+69. Accuracy: 81.159420, Detected number: 3, Expected: 0003
+70. Accuracy: 81.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 81.690141, Detected number: 7, Expected: 0007
+72. Accuracy: 81.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 82.191781, Detected number: 2, Expected: 0002
+74. Accuracy: 81.081081, Detected number: 7, Expected: 0009
+75. Accuracy: 81.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 81.578947, Detected number: 7, Expected: 0007
+77. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+78. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 81.012658, Detected number: 8, Expected: 0009
+80. Accuracy: 81.250000, Detected number: 7, Expected: 0007
+81. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+82. Accuracy: 80.487805, Detected number: 0, Expected: 0006
+83. Accuracy: 80.722892, Detected number: 2, Expected: 0002
+84. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 81.176471, Detected number: 8, Expected: 0008
+86. Accuracy: 80.232558, Detected number: 2, Expected: 0004
+87. Accuracy: 80.459770, Detected number: 7, Expected: 0007
+88. Accuracy: 80.681818, Detected number: 3, Expected: 0003
+89. Accuracy: 80.898876, Detected number: 6, Expected: 0006
+90. Accuracy: 81.111111, Detected number: 1, Expected: 0001
+91. Accuracy: 81.318681, Detected number: 3, Expected: 0003
+92. Accuracy: 81.521739, Detected number: 6, Expected: 0006
+93. Accuracy: 80.645161, Detected number: 4, Expected: 0009
+94. Accuracy: 80.851064, Detected number: 3, Expected: 0003
+95. Accuracy: 81.052632, Detected number: 1, Expected: 0001
+96. Accuracy: 80.208333, Detected number: 8, Expected: 0004
+97. Accuracy: 80.412371, Detected number: 1, Expected: 0001
+98. Accuracy: 79.591837, Detected number: 1, Expected: 0007
+99. Accuracy: 79.797980, Detected number: 6, Expected: 0006
+100. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+Accuracy: 80.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:45 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 1, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 60.000000, Detected number: 0, Expected: 0004
+6. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+7. Accuracy: 71.428571, Detected number: 4, Expected: 0004
+8. Accuracy: 62.500000, Detected number: 7, Expected: 0009
+9. Accuracy: 66.666667, Detected number: 5, Expected: 0005
+10. Accuracy: 60.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 63.636364, Detected number: 0, Expected: 0000
+12. Accuracy: 66.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 69.230769, Detected number: 9, Expected: 0009
+14. Accuracy: 71.428571, Detected number: 0, Expected: 0000
+15. Accuracy: 73.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 75.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 9, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 8, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 2, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+40. Accuracy: 82.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 82.926829, Detected number: 1, Expected: 0001
+42. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+43. Accuracy: 81.395349, Detected number: 9, Expected: 0004
+44. Accuracy: 79.545455, Detected number: 1, Expected: 0002
+45. Accuracy: 77.777778, Detected number: 1, Expected: 0003
+46. Accuracy: 76.086957, Detected number: 0, Expected: 0005
+47. Accuracy: 76.595745, Detected number: 1, Expected: 0001
+48. Accuracy: 77.083333, Detected number: 2, Expected: 0002
+49. Accuracy: 75.510204, Detected number: 2, Expected: 0004
+50. Accuracy: 76.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 76.470588, Detected number: 6, Expected: 0006
+52. Accuracy: 76.923077, Detected number: 3, Expected: 0003
+53. Accuracy: 77.358491, Detected number: 5, Expected: 0005
+54. Accuracy: 77.777778, Detected number: 5, Expected: 0005
+55. Accuracy: 78.181818, Detected number: 6, Expected: 0006
+56. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+57. Accuracy: 78.947368, Detected number: 4, Expected: 0004
+58. Accuracy: 79.310345, Detected number: 1, Expected: 0001
+59. Accuracy: 79.661017, Detected number: 9, Expected: 0009
+60. Accuracy: 80.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 80.327869, Detected number: 7, Expected: 0007
+62. Accuracy: 80.645161, Detected number: 8, Expected: 0008
+63. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+64. Accuracy: 81.250000, Detected number: 3, Expected: 0003
+65. Accuracy: 81.538462, Detected number: 7, Expected: 0007
+66. Accuracy: 81.818182, Detected number: 4, Expected: 0004
+67. Accuracy: 82.089552, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 2, Expected: 0004
+69. Accuracy: 81.159420, Detected number: 3, Expected: 0003
+70. Accuracy: 81.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 81.690141, Detected number: 7, Expected: 0007
+72. Accuracy: 81.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 82.191781, Detected number: 2, Expected: 0002
+74. Accuracy: 81.081081, Detected number: 7, Expected: 0009
+75. Accuracy: 81.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 81.578947, Detected number: 7, Expected: 0007
+77. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+78. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 81.012658, Detected number: 8, Expected: 0009
+80. Accuracy: 81.250000, Detected number: 7, Expected: 0007
+81. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+82. Accuracy: 80.487805, Detected number: 0, Expected: 0006
+83. Accuracy: 80.722892, Detected number: 2, Expected: 0002
+84. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 81.176471, Detected number: 8, Expected: 0008
+86. Accuracy: 80.232558, Detected number: 2, Expected: 0004
+87. Accuracy: 80.459770, Detected number: 7, Expected: 0007
+88. Accuracy: 80.681818, Detected number: 3, Expected: 0003
+89. Accuracy: 80.898876, Detected number: 6, Expected: 0006
+90. Accuracy: 81.111111, Detected number: 1, Expected: 0001
+91. Accuracy: 81.318681, Detected number: 3, Expected: 0003
+92. Accuracy: 81.521739, Detected number: 6, Expected: 0006
+93. Accuracy: 80.645161, Detected number: 4, Expected: 0009
+94. Accuracy: 80.851064, Detected number: 3, Expected: 0003
+95. Accuracy: 81.052632, Detected number: 1, Expected: 0001
+96. Accuracy: 80.208333, Detected number: 8, Expected: 0004
+97. Accuracy: 80.412371, Detected number: 1, Expected: 0001
+98. Accuracy: 79.591837, Detected number: 1, Expected: 0007
+99. Accuracy: 79.797980, Detected number: 6, Expected: 0006
+100. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+Accuracy: 80.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:01:05 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 24224 KB (Peak: 24224 KB), Simulation CPU Usage: 209312 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_sim'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_awaddr' [E:/NN Accelerator/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_awprot' [E:/NN Accelerator/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_araddr' [E:/NN Accelerator/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_arprot' [E:/NN Accelerator/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'radd' [E:/NN Accelerator/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'i_valid' [E:/NN Accelerator/src/fpga/rtl/zynet.v:378]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1569.488 ; gain = 0.000
+run all
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 1, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 60.000000, Detected number: 0, Expected: 0004
+6. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+7. Accuracy: 71.428571, Detected number: 4, Expected: 0004
+8. Accuracy: 62.500000, Detected number: 7, Expected: 0009
+9. Accuracy: 66.666667, Detected number: 5, Expected: 0005
+10. Accuracy: 60.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 63.636364, Detected number: 0, Expected: 0000
+12. Accuracy: 66.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 69.230769, Detected number: 9, Expected: 0009
+14. Accuracy: 71.428571, Detected number: 0, Expected: 0000
+15. Accuracy: 73.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 75.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 9, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 8, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 2, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+40. Accuracy: 82.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 82.926829, Detected number: 1, Expected: 0001
+42. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+43. Accuracy: 81.395349, Detected number: 9, Expected: 0004
+44. Accuracy: 79.545455, Detected number: 1, Expected: 0002
+45. Accuracy: 77.777778, Detected number: 1, Expected: 0003
+46. Accuracy: 76.086957, Detected number: 0, Expected: 0005
+47. Accuracy: 76.595745, Detected number: 1, Expected: 0001
+48. Accuracy: 77.083333, Detected number: 2, Expected: 0002
+49. Accuracy: 75.510204, Detected number: 2, Expected: 0004
+50. Accuracy: 76.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 76.470588, Detected number: 6, Expected: 0006
+52. Accuracy: 76.923077, Detected number: 3, Expected: 0003
+53. Accuracy: 77.358491, Detected number: 5, Expected: 0005
+54. Accuracy: 77.777778, Detected number: 5, Expected: 0005
+55. Accuracy: 78.181818, Detected number: 6, Expected: 0006
+56. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+57. Accuracy: 78.947368, Detected number: 4, Expected: 0004
+58. Accuracy: 79.310345, Detected number: 1, Expected: 0001
+59. Accuracy: 79.661017, Detected number: 9, Expected: 0009
+60. Accuracy: 80.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 80.327869, Detected number: 7, Expected: 0007
+62. Accuracy: 80.645161, Detected number: 8, Expected: 0008
+63. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+64. Accuracy: 81.250000, Detected number: 3, Expected: 0003
+65. Accuracy: 81.538462, Detected number: 7, Expected: 0007
+66. Accuracy: 81.818182, Detected number: 4, Expected: 0004
+67. Accuracy: 82.089552, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 2, Expected: 0004
+69. Accuracy: 81.159420, Detected number: 3, Expected: 0003
+70. Accuracy: 81.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 81.690141, Detected number: 7, Expected: 0007
+72. Accuracy: 81.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 82.191781, Detected number: 2, Expected: 0002
+74. Accuracy: 81.081081, Detected number: 7, Expected: 0009
+75. Accuracy: 81.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 81.578947, Detected number: 7, Expected: 0007
+77. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+78. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 81.012658, Detected number: 8, Expected: 0009
+80. Accuracy: 81.250000, Detected number: 7, Expected: 0007
+81. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+82. Accuracy: 80.487805, Detected number: 0, Expected: 0006
+83. Accuracy: 80.722892, Detected number: 2, Expected: 0002
+84. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 81.176471, Detected number: 8, Expected: 0008
+86. Accuracy: 80.232558, Detected number: 2, Expected: 0004
+87. Accuracy: 80.459770, Detected number: 7, Expected: 0007
+88. Accuracy: 80.681818, Detected number: 3, Expected: 0003
+89. Accuracy: 80.898876, Detected number: 6, Expected: 0006
+90. Accuracy: 81.111111, Detected number: 1, Expected: 0001
+91. Accuracy: 81.318681, Detected number: 3, Expected: 0003
+92. Accuracy: 81.521739, Detected number: 6, Expected: 0006
+93. Accuracy: 80.645161, Detected number: 4, Expected: 0009
+94. Accuracy: 80.851064, Detected number: 3, Expected: 0003
+95. Accuracy: 81.052632, Detected number: 1, Expected: 0001
+96. Accuracy: 80.208333, Detected number: 8, Expected: 0004
+97. Accuracy: 80.412371, Detected number: 1, Expected: 0001
+98. Accuracy: 79.591837, Detected number: 1, Expected: 0007
+99. Accuracy: 79.797980, Detected number: 6, Expected: 0006
+100. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+Accuracy: 80.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 88.888889, Detected number: 2, Expected: 0005
+10. Accuracy: 80.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 81.818182, Detected number: 0, Expected: 0000
+12. Accuracy: 75.000000, Detected number: 8, Expected: 0006
+13. Accuracy: 76.923077, Detected number: 9, Expected: 0009
+14. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+15. Accuracy: 80.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 81.250000, Detected number: 5, Expected: 0005
+17. Accuracy: 82.352941, Detected number: 9, Expected: 0009
+18. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+19. Accuracy: 78.947368, Detected number: 8, Expected: 0003
+20. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+22. Accuracy: 81.818182, Detected number: 6, Expected: 0006
+23. Accuracy: 82.608696, Detected number: 6, Expected: 0006
+24. Accuracy: 83.333333, Detected number: 5, Expected: 0005
+25. Accuracy: 84.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 84.615385, Detected number: 0, Expected: 0000
+27. Accuracy: 85.185185, Detected number: 7, Expected: 0007
+28. Accuracy: 85.714286, Detected number: 4, Expected: 0004
+29. Accuracy: 86.206897, Detected number: 0, Expected: 0000
+30. Accuracy: 86.666667, Detected number: 1, Expected: 0001
+31. Accuracy: 87.096774, Detected number: 3, Expected: 0003
+32. Accuracy: 87.500000, Detected number: 1, Expected: 0001
+33. Accuracy: 87.878788, Detected number: 3, Expected: 0003
+34. Accuracy: 85.294118, Detected number: 0, Expected: 0004
+35. Accuracy: 85.714286, Detected number: 7, Expected: 0007
+36. Accuracy: 86.111111, Detected number: 2, Expected: 0002
+37. Accuracy: 86.486486, Detected number: 7, Expected: 0007
+38. Accuracy: 86.842105, Detected number: 1, Expected: 0001
+39. Accuracy: 87.179487, Detected number: 2, Expected: 0002
+40. Accuracy: 87.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 87.804878, Detected number: 1, Expected: 0001
+42. Accuracy: 88.095238, Detected number: 7, Expected: 0007
+43. Accuracy: 88.372093, Detected number: 4, Expected: 0004
+44. Accuracy: 88.636364, Detected number: 2, Expected: 0002
+45. Accuracy: 86.666667, Detected number: 8, Expected: 0003
+46. Accuracy: 84.782609, Detected number: 0, Expected: 0005
+47. Accuracy: 82.978723, Detected number: 2, Expected: 0001
+48. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+49. Accuracy: 81.632653, Detected number: 8, Expected: 0004
+50. Accuracy: 82.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 82.352941, Detected number: 6, Expected: 0006
+52. Accuracy: 82.692308, Detected number: 3, Expected: 0003
+53. Accuracy: 83.018868, Detected number: 5, Expected: 0005
+54. Accuracy: 83.333333, Detected number: 5, Expected: 0005
+55. Accuracy: 83.636364, Detected number: 6, Expected: 0006
+56. Accuracy: 83.928571, Detected number: 0, Expected: 0000
+57. Accuracy: 84.210526, Detected number: 4, Expected: 0004
+58. Accuracy: 84.482759, Detected number: 1, Expected: 0001
+59. Accuracy: 84.745763, Detected number: 9, Expected: 0009
+60. Accuracy: 83.333333, Detected number: 8, Expected: 0005
+61. Accuracy: 83.606557, Detected number: 7, Expected: 0007
+62. Accuracy: 83.870968, Detected number: 8, Expected: 0008
+63. Accuracy: 84.126984, Detected number: 9, Expected: 0009
+64. Accuracy: 84.375000, Detected number: 3, Expected: 0003
+65. Accuracy: 84.615385, Detected number: 7, Expected: 0007
+66. Accuracy: 83.333333, Detected number: 9, Expected: 0004
+67. Accuracy: 83.582090, Detected number: 6, Expected: 0006
+68. Accuracy: 83.823529, Detected number: 4, Expected: 0004
+69. Accuracy: 84.057971, Detected number: 3, Expected: 0003
+70. Accuracy: 84.285714, Detected number: 0, Expected: 0000
+71. Accuracy: 84.507042, Detected number: 7, Expected: 0007
+72. Accuracy: 84.722222, Detected number: 0, Expected: 0000
+73. Accuracy: 83.561644, Detected number: 5, Expected: 0002
+74. Accuracy: 83.783784, Detected number: 9, Expected: 0009
+75. Accuracy: 84.000000, Detected number: 1, Expected: 0001
+76. Accuracy: 84.210526, Detected number: 7, Expected: 0007
+77. Accuracy: 84.415584, Detected number: 3, Expected: 0003
+78. Accuracy: 84.615385, Detected number: 2, Expected: 0002
+79. Accuracy: 83.544304, Detected number: 8, Expected: 0009
+80. Accuracy: 82.500000, Detected number: 8, Expected: 0007
+81. Accuracy: 82.716049, Detected number: 7, Expected: 0007
+82. Accuracy: 81.707317, Detected number: 0, Expected: 0006
+83. Accuracy: 81.927711, Detected number: 2, Expected: 0002
+84. Accuracy: 82.142857, Detected number: 7, Expected: 0007
+85. Accuracy: 82.352941, Detected number: 8, Expected: 0008
+86. Accuracy: 82.558140, Detected number: 4, Expected: 0004
+87. Accuracy: 82.758621, Detected number: 7, Expected: 0007
+88. Accuracy: 82.954545, Detected number: 3, Expected: 0003
+89. Accuracy: 83.146067, Detected number: 6, Expected: 0006
+90. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+91. Accuracy: 83.516484, Detected number: 3, Expected: 0003
+92. Accuracy: 83.695652, Detected number: 6, Expected: 0006
+93. Accuracy: 83.870968, Detected number: 9, Expected: 0009
+94. Accuracy: 84.042553, Detected number: 3, Expected: 0003
+95. Accuracy: 84.210526, Detected number: 1, Expected: 0001
+96. Accuracy: 83.333333, Detected number: 9, Expected: 0004
+97. Accuracy: 83.505155, Detected number: 1, Expected: 0001
+98. Accuracy: 83.673469, Detected number: 7, Expected: 0007
+99. Accuracy: 83.838384, Detected number: 6, Expected: 0006
+100. Accuracy: 84.000000, Detected number: 9, Expected: 0009
+Accuracy: 84.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 85.714286, Detected number: 8, Expected: 0004
+8. Accuracy: 87.500000, Detected number: 9, Expected: 0009
+9. Accuracy: 77.777778, Detected number: 0, Expected: 0005
+10. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 81.818182, Detected number: 0, Expected: 0000
+12. Accuracy: 75.000000, Detected number: 8, Expected: 0006
+13. Accuracy: 76.923077, Detected number: 9, Expected: 0009
+14. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+15. Accuracy: 80.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 81.250000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 8, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 6, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 2, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+40. Accuracy: 82.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 82.926829, Detected number: 1, Expected: 0001
+42. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+43. Accuracy: 83.720930, Detected number: 4, Expected: 0004
+44. Accuracy: 84.090909, Detected number: 2, Expected: 0002
+45. Accuracy: 82.222222, Detected number: 8, Expected: 0003
+46. Accuracy: 82.608696, Detected number: 5, Expected: 0005
+47. Accuracy: 80.851064, Detected number: 0, Expected: 0001
+48. Accuracy: 81.250000, Detected number: 2, Expected: 0002
+49. Accuracy: 81.632653, Detected number: 4, Expected: 0004
+50. Accuracy: 82.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 82.352941, Detected number: 6, Expected: 0006
+52. Accuracy: 80.769231, Detected number: 2, Expected: 0003
+53. Accuracy: 79.245283, Detected number: 0, Expected: 0005
+54. Accuracy: 79.629630, Detected number: 5, Expected: 0005
+55. Accuracy: 80.000000, Detected number: 6, Expected: 0006
+56. Accuracy: 80.357143, Detected number: 0, Expected: 0000
+57. Accuracy: 80.701754, Detected number: 4, Expected: 0004
+58. Accuracy: 81.034483, Detected number: 1, Expected: 0001
+59. Accuracy: 81.355932, Detected number: 9, Expected: 0009
+60. Accuracy: 80.000000, Detected number: 6, Expected: 0005
+61. Accuracy: 80.327869, Detected number: 7, Expected: 0007
+62. Accuracy: 79.032258, Detected number: 2, Expected: 0008
+63. Accuracy: 79.365079, Detected number: 9, Expected: 0009
+64. Accuracy: 79.687500, Detected number: 3, Expected: 0003
+65. Accuracy: 80.000000, Detected number: 7, Expected: 0007
+66. Accuracy: 80.303030, Detected number: 4, Expected: 0004
+67. Accuracy: 80.597015, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 4, Expected: 0004
+69. Accuracy: 79.710145, Detected number: 7, Expected: 0003
+70. Accuracy: 80.000000, Detected number: 0, Expected: 0000
+71. Accuracy: 80.281690, Detected number: 7, Expected: 0007
+72. Accuracy: 80.555556, Detected number: 0, Expected: 0000
+73. Accuracy: 79.452055, Detected number: 9, Expected: 0002
+74. Accuracy: 78.378378, Detected number: 8, Expected: 0009
+75. Accuracy: 78.666667, Detected number: 1, Expected: 0001
+76. Accuracy: 78.947368, Detected number: 7, Expected: 0007
+77. Accuracy: 79.220779, Detected number: 3, Expected: 0003
+78. Accuracy: 79.487179, Detected number: 2, Expected: 0002
+79. Accuracy: 78.481013, Detected number: 8, Expected: 0009
+80. Accuracy: 77.500000, Detected number: 8, Expected: 0007
+81. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+82. Accuracy: 78.048780, Detected number: 6, Expected: 0006
+83. Accuracy: 78.313253, Detected number: 2, Expected: 0002
+84. Accuracy: 78.571429, Detected number: 7, Expected: 0007
+85. Accuracy: 78.823529, Detected number: 8, Expected: 0008
+86. Accuracy: 79.069767, Detected number: 4, Expected: 0004
+87. Accuracy: 78.160920, Detected number: 8, Expected: 0007
+88. Accuracy: 78.409091, Detected number: 3, Expected: 0003
+89. Accuracy: 78.651685, Detected number: 6, Expected: 0006
+90. Accuracy: 78.888889, Detected number: 1, Expected: 0001
+91. Accuracy: 79.120879, Detected number: 3, Expected: 0003
+92. Accuracy: 79.347826, Detected number: 6, Expected: 0006
+93. Accuracy: 79.569892, Detected number: 9, Expected: 0009
+94. Accuracy: 78.723404, Detected number: 2, Expected: 0003
+95. Accuracy: 78.947368, Detected number: 1, Expected: 0001
+96. Accuracy: 78.125000, Detected number: 6, Expected: 0004
+97. Accuracy: 77.319588, Detected number: 0, Expected: 0001
+98. Accuracy: 76.530612, Detected number: 1, Expected: 0007
+99. Accuracy: 76.767677, Detected number: 6, Expected: 0006
+100. Accuracy: 77.000000, Detected number: 9, Expected: 0009
+Accuracy: 77.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 88.888889, Detected number: 2, Expected: 0005
+10. Accuracy: 80.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 81.818182, Detected number: 0, Expected: 0000
+12. Accuracy: 75.000000, Detected number: 8, Expected: 0006
+13. Accuracy: 76.923077, Detected number: 9, Expected: 0009
+14. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+15. Accuracy: 80.000000, Detected number: 1, Expected: 0001
+16. Accuracy: 81.250000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 4, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 8, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 83.783784, Detected number: 7, Expected: 0007
+38. Accuracy: 84.210526, Detected number: 1, Expected: 0001
+39. Accuracy: 84.615385, Detected number: 2, Expected: 0002
+40. Accuracy: 85.000000, Detected number: 1, Expected: 0001
+41. Accuracy: 85.365854, Detected number: 1, Expected: 0001
+42. Accuracy: 85.714286, Detected number: 7, Expected: 0007
+43. Accuracy: 86.046512, Detected number: 4, Expected: 0004
+44. Accuracy: 84.090909, Detected number: 3, Expected: 0002
+45. Accuracy: 82.222222, Detected number: 8, Expected: 0003
+46. Accuracy: 82.608696, Detected number: 5, Expected: 0005
+47. Accuracy: 82.978723, Detected number: 1, Expected: 0001
+48. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+49. Accuracy: 81.632653, Detected number: 8, Expected: 0004
+50. Accuracy: 82.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 82.352941, Detected number: 6, Expected: 0006
+52. Accuracy: 82.692308, Detected number: 3, Expected: 0003
+53. Accuracy: 83.018868, Detected number: 5, Expected: 0005
+54. Accuracy: 83.333333, Detected number: 5, Expected: 0005
+55. Accuracy: 83.636364, Detected number: 6, Expected: 0006
+56. Accuracy: 83.928571, Detected number: 0, Expected: 0000
+57. Accuracy: 84.210526, Detected number: 4, Expected: 0004
+58. Accuracy: 84.482759, Detected number: 1, Expected: 0001
+59. Accuracy: 84.745763, Detected number: 9, Expected: 0009
+60. Accuracy: 83.333333, Detected number: 6, Expected: 0005
+61. Accuracy: 83.606557, Detected number: 7, Expected: 0007
+62. Accuracy: 83.870968, Detected number: 8, Expected: 0008
+63. Accuracy: 84.126984, Detected number: 9, Expected: 0009
+64. Accuracy: 84.375000, Detected number: 3, Expected: 0003
+65. Accuracy: 84.615385, Detected number: 7, Expected: 0007
+66. Accuracy: 84.848485, Detected number: 4, Expected: 0004
+67. Accuracy: 85.074627, Detected number: 6, Expected: 0006
+68. Accuracy: 85.294118, Detected number: 4, Expected: 0004
+69. Accuracy: 85.507246, Detected number: 3, Expected: 0003
+70. Accuracy: 85.714286, Detected number: 0, Expected: 0000
+71. Accuracy: 85.915493, Detected number: 7, Expected: 0007
+72. Accuracy: 86.111111, Detected number: 0, Expected: 0000
+73. Accuracy: 84.931507, Detected number: 3, Expected: 0002
+74. Accuracy: 85.135135, Detected number: 9, Expected: 0009
+75. Accuracy: 85.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 85.526316, Detected number: 7, Expected: 0007
+77. Accuracy: 85.714286, Detected number: 3, Expected: 0003
+78. Accuracy: 85.897436, Detected number: 2, Expected: 0002
+79. Accuracy: 84.810127, Detected number: 8, Expected: 0009
+80. Accuracy: 83.750000, Detected number: 8, Expected: 0007
+81. Accuracy: 83.950617, Detected number: 7, Expected: 0007
+82. Accuracy: 84.146341, Detected number: 6, Expected: 0006
+83. Accuracy: 84.337349, Detected number: 2, Expected: 0002
+84. Accuracy: 84.523810, Detected number: 7, Expected: 0007
+85. Accuracy: 84.705882, Detected number: 8, Expected: 0008
+86. Accuracy: 84.883721, Detected number: 4, Expected: 0004
+87. Accuracy: 85.057471, Detected number: 7, Expected: 0007
+88. Accuracy: 85.227273, Detected number: 3, Expected: 0003
+89. Accuracy: 85.393258, Detected number: 6, Expected: 0006
+90. Accuracy: 85.555556, Detected number: 1, Expected: 0001
+91. Accuracy: 85.714286, Detected number: 3, Expected: 0003
+92. Accuracy: 85.869565, Detected number: 6, Expected: 0006
+93. Accuracy: 86.021505, Detected number: 9, Expected: 0009
+94. Accuracy: 86.170213, Detected number: 3, Expected: 0003
+95. Accuracy: 86.315789, Detected number: 1, Expected: 0001
+96. Accuracy: 85.416667, Detected number: 9, Expected: 0004
+97. Accuracy: 85.567010, Detected number: 1, Expected: 0001
+98. Accuracy: 85.714286, Detected number: 7, Expected: 0007
+99. Accuracy: 85.858586, Detected number: 6, Expected: 0006
+100. Accuracy: 86.000000, Detected number: 9, Expected: 0009
+Accuracy: 86.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Configuration completed                      0 ns
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 50.000000, Detected number: 1, Expected: 0002
+3. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+4. Accuracy: 75.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 60.000000, Detected number: 0, Expected: 0004
+6. Accuracy: 66.666667, Detected number: 1, Expected: 0001
+7. Accuracy: 71.428571, Detected number: 4, Expected: 0004
+8. Accuracy: 62.500000, Detected number: 7, Expected: 0009
+9. Accuracy: 66.666667, Detected number: 5, Expected: 0005
+10. Accuracy: 60.000000, Detected number: 4, Expected: 0009
+11. Accuracy: 63.636364, Detected number: 0, Expected: 0000
+12. Accuracy: 66.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 69.230769, Detected number: 9, Expected: 0009
+14. Accuracy: 71.428571, Detected number: 0, Expected: 0000
+15. Accuracy: 73.333333, Detected number: 1, Expected: 0001
+16. Accuracy: 75.000000, Detected number: 5, Expected: 0005
+17. Accuracy: 76.470588, Detected number: 9, Expected: 0009
+18. Accuracy: 77.777778, Detected number: 7, Expected: 0007
+19. Accuracy: 73.684211, Detected number: 8, Expected: 0003
+20. Accuracy: 75.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 76.190476, Detected number: 9, Expected: 0009
+22. Accuracy: 77.272727, Detected number: 6, Expected: 0006
+23. Accuracy: 78.260870, Detected number: 6, Expected: 0006
+24. Accuracy: 79.166667, Detected number: 5, Expected: 0005
+25. Accuracy: 80.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 80.769231, Detected number: 0, Expected: 0000
+27. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+28. Accuracy: 82.142857, Detected number: 4, Expected: 0004
+29. Accuracy: 82.758621, Detected number: 0, Expected: 0000
+30. Accuracy: 83.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 83.870968, Detected number: 3, Expected: 0003
+32. Accuracy: 84.375000, Detected number: 1, Expected: 0001
+33. Accuracy: 84.848485, Detected number: 3, Expected: 0003
+34. Accuracy: 82.352941, Detected number: 0, Expected: 0004
+35. Accuracy: 82.857143, Detected number: 7, Expected: 0007
+36. Accuracy: 83.333333, Detected number: 2, Expected: 0002
+37. Accuracy: 81.081081, Detected number: 2, Expected: 0007
+38. Accuracy: 81.578947, Detected number: 1, Expected: 0001
+39. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+40. Accuracy: 82.500000, Detected number: 1, Expected: 0001
+41. Accuracy: 82.926829, Detected number: 1, Expected: 0001
+42. Accuracy: 83.333333, Detected number: 7, Expected: 0007
+43. Accuracy: 81.395349, Detected number: 9, Expected: 0004
+44. Accuracy: 79.545455, Detected number: 1, Expected: 0002
+45. Accuracy: 77.777778, Detected number: 1, Expected: 0003
+46. Accuracy: 76.086957, Detected number: 0, Expected: 0005
+47. Accuracy: 76.595745, Detected number: 1, Expected: 0001
+48. Accuracy: 77.083333, Detected number: 2, Expected: 0002
+49. Accuracy: 75.510204, Detected number: 2, Expected: 0004
+50. Accuracy: 76.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 76.470588, Detected number: 6, Expected: 0006
+52. Accuracy: 76.923077, Detected number: 3, Expected: 0003
+53. Accuracy: 77.358491, Detected number: 5, Expected: 0005
+54. Accuracy: 77.777778, Detected number: 5, Expected: 0005
+55. Accuracy: 78.181818, Detected number: 6, Expected: 0006
+56. Accuracy: 78.571429, Detected number: 0, Expected: 0000
+57. Accuracy: 78.947368, Detected number: 4, Expected: 0004
+58. Accuracy: 79.310345, Detected number: 1, Expected: 0001
+59. Accuracy: 79.661017, Detected number: 9, Expected: 0009
+60. Accuracy: 80.000000, Detected number: 5, Expected: 0005
+61. Accuracy: 80.327869, Detected number: 7, Expected: 0007
+62. Accuracy: 80.645161, Detected number: 8, Expected: 0008
+63. Accuracy: 80.952381, Detected number: 9, Expected: 0009
+64. Accuracy: 81.250000, Detected number: 3, Expected: 0003
+65. Accuracy: 81.538462, Detected number: 7, Expected: 0007
+66. Accuracy: 81.818182, Detected number: 4, Expected: 0004
+67. Accuracy: 82.089552, Detected number: 6, Expected: 0006
+68. Accuracy: 80.882353, Detected number: 2, Expected: 0004
+69. Accuracy: 81.159420, Detected number: 3, Expected: 0003
+70. Accuracy: 81.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 81.690141, Detected number: 7, Expected: 0007
+72. Accuracy: 81.944444, Detected number: 0, Expected: 0000
+73. Accuracy: 82.191781, Detected number: 2, Expected: 0002
+74. Accuracy: 81.081081, Detected number: 7, Expected: 0009
+75. Accuracy: 81.333333, Detected number: 1, Expected: 0001
+76. Accuracy: 81.578947, Detected number: 7, Expected: 0007
+77. Accuracy: 81.818182, Detected number: 3, Expected: 0003
+78. Accuracy: 82.051282, Detected number: 2, Expected: 0002
+79. Accuracy: 81.012658, Detected number: 8, Expected: 0009
+80. Accuracy: 81.250000, Detected number: 7, Expected: 0007
+81. Accuracy: 81.481481, Detected number: 7, Expected: 0007
+82. Accuracy: 80.487805, Detected number: 0, Expected: 0006
+83. Accuracy: 80.722892, Detected number: 2, Expected: 0002
+84. Accuracy: 80.952381, Detected number: 7, Expected: 0007
+85. Accuracy: 81.176471, Detected number: 8, Expected: 0008
+86. Accuracy: 80.232558, Detected number: 2, Expected: 0004
+87. Accuracy: 80.459770, Detected number: 7, Expected: 0007
+88. Accuracy: 80.681818, Detected number: 3, Expected: 0003
+89. Accuracy: 80.898876, Detected number: 6, Expected: 0006
+90. Accuracy: 81.111111, Detected number: 1, Expected: 0001
+91. Accuracy: 81.318681, Detected number: 3, Expected: 0003
+92. Accuracy: 81.521739, Detected number: 6, Expected: 0006
+93. Accuracy: 80.645161, Detected number: 4, Expected: 0009
+94. Accuracy: 80.851064, Detected number: 3, Expected: 0003
+95. Accuracy: 81.052632, Detected number: 1, Expected: 0001
+96. Accuracy: 80.208333, Detected number: 8, Expected: 0004
+97. Accuracy: 80.412371, Detected number: 1, Expected: 0001
+98. Accuracy: 79.591837, Detected number: 1, Expected: 0007
+99. Accuracy: 79.797980, Detected number: 6, Expected: 0006
+100. Accuracy: 80.000000, Detected number: 9, Expected: 0009
+Accuracy: 80.000000
+$stop called at time : 900235 ns : File "E:/NN Accelerator/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1569.488 ; gain = 0.000

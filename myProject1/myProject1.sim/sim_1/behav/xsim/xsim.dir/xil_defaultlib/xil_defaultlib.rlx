@@ -1,0 +1,20 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-5/src/fpga/rtl/include.v,1591811352,verilog,,,,,,,,,,,,
+D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/rtl/include.v,1591811352,verilog,,,,,,,,,,,,
+E:/NN Accelerator/myProject1/myProject1.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/Layer_1.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/Layer_2.v,,Layer_1,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/Layer_2.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/Layer_3.v,,Layer_2,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/Layer_3.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/Layer_4.v,,Layer_3,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/Layer_4.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/Sig_ROM.v,,Layer_4,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/Sig_ROM.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/Weight_Memory.v,,Sig_ROM,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/Weight_Memory.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/axi_lite_wrapper.v,E:/NN Accelerator/src/fpga/rtl/include.v,Weight_Memory,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/axi_lite_wrapper.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/maxFinder.v,,axi_lite_wrapper,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/include.v,1646045497,verilog,,,,,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/maxFinder.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/neuron.v,,maxFinder,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/neuron.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/relu.v,E:/NN Accelerator/src/fpga/rtl/include.v,neuron,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/relu.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/rtl/zynet.v,,ReLU,,,,,,,,
+E:/NN Accelerator/src/fpga/rtl/zynet.v,1591811352,verilog,,E:/NN Accelerator/src/fpga/tb/top_sim.v,E:/NN Accelerator/src/fpga/rtl/include.v,zyNet,,,,,,,,
+E:/NN Accelerator/src/fpga/tb/top_sim.v,1646049480,verilog,,,E:/NN Accelerator/src/fpga/rtl/include.v,top_sim,,,,,,,,

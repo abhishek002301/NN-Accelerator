@@ -1,0 +1,1232 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Feb 27 10:27:42 2022
+# Process ID: 27680
+# Current directory: D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17508 D:\downloads\neuralNetwork-master\neuralNetwork-master\Tut-6\myProject1\myProject1.xpr
+# Log file: D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/vivado.log
+# Journal file: D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1\vivado.jou
+# Running On: AbhishekPC, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 17018 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at E:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 1603.496 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_sim'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_25.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_26.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_27.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_28.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_29.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_1_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_25.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_26.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_27.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_28.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_29.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_2_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_3_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_3.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_4.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_5.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_6.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_7.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_8.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/b_4_9.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/sigContent.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_1.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_10.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_11.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_12.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_13.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_14.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_15.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_16.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_17.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_18.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_19.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_2.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_20.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_21.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_22.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_23.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_24.mif'
+INFO: [SIM-utils-43] Exported 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim/w_1_25.mif'
+INFO: [Common 17-14] Message 'SIM-utils 43' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_awaddr' [D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/tb/top_sim.v:73]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_awprot' [D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/tb/top_sim.v:74]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 's_axi_araddr' [D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/tb/top_sim.v:84]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 's_axi_arprot' [D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/tb/top_sim.v:85]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'radd' [D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/rtl/neuron.v:172]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 1 for port 'i_valid' [D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/rtl/zynet.v:378]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/myProject1/myProject1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_sim_behav -key {Behavioral:sim_1:Functional:top_sim} -tclbatch {top_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Configuration completed                      0 ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1603.496 ; gain = 0.000
+run all
+1. Accuracy: 100.000000, Detected number: 7, Expected: 0007
+2. Accuracy: 100.000000, Detected number: 2, Expected: 0002
+3. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+4. Accuracy: 100.000000, Detected number: 0, Expected: 0000
+5. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+6. Accuracy: 100.000000, Detected number: 1, Expected: 0001
+7. Accuracy: 100.000000, Detected number: 4, Expected: 0004
+8. Accuracy: 100.000000, Detected number: 9, Expected: 0009
+9. Accuracy: 88.888889, Detected number: 6, Expected: 0005
+10. Accuracy: 90.000000, Detected number: 9, Expected: 0009
+11. Accuracy: 90.909091, Detected number: 0, Expected: 0000
+12. Accuracy: 91.666667, Detected number: 6, Expected: 0006
+13. Accuracy: 92.307692, Detected number: 9, Expected: 0009
+14. Accuracy: 92.857143, Detected number: 0, Expected: 0000
+15. Accuracy: 86.666667, Detected number: 8, Expected: 0001
+16. Accuracy: 87.500000, Detected number: 5, Expected: 0005
+17. Accuracy: 88.235294, Detected number: 9, Expected: 0009
+18. Accuracy: 88.888889, Detected number: 7, Expected: 0007
+19. Accuracy: 89.473684, Detected number: 3, Expected: 0003
+20. Accuracy: 90.000000, Detected number: 4, Expected: 0004
+21. Accuracy: 90.476190, Detected number: 9, Expected: 0009
+22. Accuracy: 90.909091, Detected number: 6, Expected: 0006
+23. Accuracy: 91.304348, Detected number: 6, Expected: 0006
+24. Accuracy: 91.666667, Detected number: 5, Expected: 0005
+25. Accuracy: 92.000000, Detected number: 4, Expected: 0004
+26. Accuracy: 92.307692, Detected number: 0, Expected: 0000
+27. Accuracy: 92.592593, Detected number: 7, Expected: 0007
+28. Accuracy: 92.857143, Detected number: 4, Expected: 0004
+29. Accuracy: 93.103448, Detected number: 0, Expected: 0000
+30. Accuracy: 93.333333, Detected number: 1, Expected: 0001
+31. Accuracy: 93.548387, Detected number: 3, Expected: 0003
+32. Accuracy: 93.750000, Detected number: 1, Expected: 0001
+33. Accuracy: 93.939394, Detected number: 3, Expected: 0003
+34. Accuracy: 94.117647, Detected number: 4, Expected: 0004
+35. Accuracy: 94.285714, Detected number: 7, Expected: 0007
+36. Accuracy: 94.444444, Detected number: 2, Expected: 0002
+37. Accuracy: 94.594595, Detected number: 7, Expected: 0007
+38. Accuracy: 94.736842, Detected number: 1, Expected: 0001
+39. Accuracy: 94.871795, Detected number: 2, Expected: 0002
+40. Accuracy: 92.500000, Detected number: 8, Expected: 0001
+41. Accuracy: 92.682927, Detected number: 1, Expected: 0001
+42. Accuracy: 92.857143, Detected number: 7, Expected: 0007
+43. Accuracy: 93.023256, Detected number: 4, Expected: 0004
+44. Accuracy: 93.181818, Detected number: 2, Expected: 0002
+45. Accuracy: 93.333333, Detected number: 3, Expected: 0003
+46. Accuracy: 93.478261, Detected number: 5, Expected: 0005
+47. Accuracy: 91.489362, Detected number: 3, Expected: 0001
+48. Accuracy: 91.666667, Detected number: 2, Expected: 0002
+49. Accuracy: 91.836735, Detected number: 4, Expected: 0004
+50. Accuracy: 92.000000, Detected number: 4, Expected: 0004
+51. Accuracy: 92.156863, Detected number: 6, Expected: 0006
+52. Accuracy: 92.307692, Detected number: 3, Expected: 0003
+53. Accuracy: 92.452830, Detected number: 5, Expected: 0005
+54. Accuracy: 92.592593, Detected number: 5, Expected: 0005
+55. Accuracy: 92.727273, Detected number: 6, Expected: 0006
+56. Accuracy: 92.857143, Detected number: 0, Expected: 0000
+57. Accuracy: 92.982456, Detected number: 4, Expected: 0004
+58. Accuracy: 93.103448, Detected number: 1, Expected: 0001
+59. Accuracy: 93.220339, Detected number: 9, Expected: 0009
+60. Accuracy: 93.333333, Detected number: 5, Expected: 0005
+61. Accuracy: 91.803279, Detected number: 9, Expected: 0007
+62. Accuracy: 91.935484, Detected number: 8, Expected: 0008
+63. Accuracy: 92.063492, Detected number: 9, Expected: 0009
+64. Accuracy: 92.187500, Detected number: 3, Expected: 0003
+65. Accuracy: 90.769231, Detected number: 3, Expected: 0007
+66. Accuracy: 90.909091, Detected number: 4, Expected: 0004
+67. Accuracy: 91.044776, Detected number: 6, Expected: 0006
+68. Accuracy: 91.176471, Detected number: 4, Expected: 0004
+69. Accuracy: 91.304348, Detected number: 3, Expected: 0003
+70. Accuracy: 91.428571, Detected number: 0, Expected: 0000
+71. Accuracy: 91.549296, Detected number: 7, Expected: 0007
+72. Accuracy: 91.666667, Detected number: 0, Expected: 0000
+73. Accuracy: 91.780822, Detected number: 2, Expected: 0002
+74. Accuracy: 91.891892, Detected number: 9, Expected: 0009
+75. Accuracy: 92.000000, Detected number: 1, Expected: 0001
+76. Accuracy: 90.789474, Detected number: 9, Expected: 0007
+77. Accuracy: 90.909091, Detected number: 3, Expected: 0003
+78. Accuracy: 91.025641, Detected number: 2, Expected: 0002
+79. Accuracy: 91.139241, Detected number: 9, Expected: 0009
+80. Accuracy: 91.250000, Detected number: 7, Expected: 0007
+81. Accuracy: 91.358025, Detected number: 7, Expected: 0007
+82. Accuracy: 91.463415, Detected number: 6, Expected: 0006
+83. Accuracy: 91.566265, Detected number: 2, Expected: 0002
+84. Accuracy: 91.666667, Detected number: 7, Expected: 0007
+85. Accuracy: 91.764706, Detected number: 8, Expected: 0008
+86. Accuracy: 91.860465, Detected number: 4, Expected: 0004
+87. Accuracy: 91.954023, Detected number: 7, Expected: 0007
+88. Accuracy: 92.045455, Detected number: 3, Expected: 0003
+89. Accuracy: 92.134831, Detected number: 6, Expected: 0006
+90. Accuracy: 92.222222, Detected number: 1, Expected: 0001
+91. Accuracy: 92.307692, Detected number: 3, Expected: 0003
+92. Accuracy: 92.391304, Detected number: 6, Expected: 0006
+93. Accuracy: 92.473118, Detected number: 9, Expected: 0009
+94. Accuracy: 92.553191, Detected number: 3, Expected: 0003
+95. Accuracy: 91.578947, Detected number: 8, Expected: 0001
+96. Accuracy: 91.666667, Detected number: 4, Expected: 0004
+97. Accuracy: 91.752577, Detected number: 1, Expected: 0001
+98. Accuracy: 90.816327, Detected number: 9, Expected: 0007
+99. Accuracy: 90.909091, Detected number: 6, Expected: 0006
+100. Accuracy: 91.000000, Detected number: 9, Expected: 0009
+101. Accuracy: 91.089109, Detected number: 6, Expected: 0006
+102. Accuracy: 91.176471, Detected number: 0, Expected: 0000
+103. Accuracy: 91.262136, Detected number: 5, Expected: 0005
+104. Accuracy: 91.346154, Detected number: 4, Expected: 0004
+105. Accuracy: 91.428571, Detected number: 9, Expected: 0009
+106. Accuracy: 91.509434, Detected number: 9, Expected: 0009
+107. Accuracy: 91.588785, Detected number: 2, Expected: 0002
+108. Accuracy: 90.740741, Detected number: 8, Expected: 0001
+109. Accuracy: 90.825688, Detected number: 9, Expected: 0009
+110. Accuracy: 90.909091, Detected number: 4, Expected: 0004
+111. Accuracy: 90.990991, Detected number: 8, Expected: 0008
+112. Accuracy: 91.071429, Detected number: 7, Expected: 0007
+113. Accuracy: 91.150442, Detected number: 3, Expected: 0003
+114. Accuracy: 91.228070, Detected number: 9, Expected: 0009
+115. Accuracy: 91.304348, Detected number: 7, Expected: 0007
+116. Accuracy: 91.379310, Detected number: 4, Expected: 0004
+117. Accuracy: 91.452991, Detected number: 4, Expected: 0004
+118. Accuracy: 91.525424, Detected number: 4, Expected: 0004
+119. Accuracy: 91.596639, Detected number: 9, Expected: 0009
+120. Accuracy: 91.666667, Detected number: 2, Expected: 0002
+121. Accuracy: 91.735537, Detected number: 5, Expected: 0005
+122. Accuracy: 91.803279, Detected number: 4, Expected: 0004
+123. Accuracy: 91.869919, Detected number: 7, Expected: 0007
+124. Accuracy: 91.935484, Detected number: 6, Expected: 0006
+125. Accuracy: 91.200000, Detected number: 4, Expected: 0007
+126. Accuracy: 91.269841, Detected number: 9, Expected: 0009
+127. Accuracy: 91.338583, Detected number: 0, Expected: 0000
+128. Accuracy: 91.406250, Detected number: 5, Expected: 0005
+129. Accuracy: 91.472868, Detected number: 8, Expected: 0008
+130. Accuracy: 91.538462, Detected number: 5, Expected: 0005
+131. Accuracy: 91.603053, Detected number: 6, Expected: 0006
+132. Accuracy: 91.666667, Detected number: 6, Expected: 0006
+133. Accuracy: 91.729323, Detected number: 5, Expected: 0005
+134. Accuracy: 91.791045, Detected number: 7, Expected: 0007
+135. Accuracy: 91.851852, Detected number: 8, Expected: 0008
+136. Accuracy: 91.176471, Detected number: 8, Expected: 0001
+137. Accuracy: 91.240876, Detected number: 0, Expected: 0000
+138. Accuracy: 91.304348, Detected number: 1, Expected: 0001
+139. Accuracy: 91.366906, Detected number: 6, Expected: 0006
+140. Accuracy: 91.428571, Detected number: 4, Expected: 0004
+141. Accuracy: 91.489362, Detected number: 6, Expected: 0006
+142. Accuracy: 91.549296, Detected number: 7, Expected: 0007
+143. Accuracy: 91.608392, Detected number: 3, Expected: 0003
+144. Accuracy: 91.666667, Detected number: 1, Expected: 0001
+145. Accuracy: 91.034483, Detected number: 3, Expected: 0007
+146. Accuracy: 91.095890, Detected number: 1, Expected: 0001
+147. Accuracy: 91.156463, Detected number: 8, Expected: 0008
+148. Accuracy: 91.216216, Detected number: 2, Expected: 0002
+149. Accuracy: 91.275168, Detected number: 0, Expected: 0000
+150. Accuracy: 91.333333, Detected number: 2, Expected: 0002
+151. Accuracy: 91.390728, Detected number: 9, Expected: 0009
+152. Accuracy: 90.789474, Detected number: 8, Expected: 0009
+153. Accuracy: 90.196078, Detected number: 8, Expected: 0005
+154. Accuracy: 90.259740, Detected number: 5, Expected: 0005
+155. Accuracy: 90.322581, Detected number: 1, Expected: 0001
+156. Accuracy: 90.384615, Detected number: 5, Expected: 0005
+157. Accuracy: 90.445860, Detected number: 6, Expected: 0006
+158. Accuracy: 90.506329, Detected number: 0, Expected: 0000
+159. Accuracy: 90.566038, Detected number: 3, Expected: 0003
+160. Accuracy: 90.625000, Detected number: 4, Expected: 0004
+161. Accuracy: 90.683230, Detected number: 4, Expected: 0004
+162. Accuracy: 90.740741, Detected number: 6, Expected: 0006
+163. Accuracy: 90.797546, Detected number: 5, Expected: 0005
+164. Accuracy: 90.853659, Detected number: 4, Expected: 0004
+165. Accuracy: 90.909091, Detected number: 6, Expected: 0006
+166. Accuracy: 90.963855, Detected number: 5, Expected: 0005
+167. Accuracy: 91.017964, Detected number: 4, Expected: 0004
+168. Accuracy: 91.071429, Detected number: 5, Expected: 0005
+169. Accuracy: 91.124260, Detected number: 1, Expected: 0001
+170. Accuracy: 91.176471, Detected number: 4, Expected: 0004
+171. Accuracy: 91.228070, Detected number: 4, Expected: 0004
+172. Accuracy: 90.697674, Detected number: 2, Expected: 0007
+173. Accuracy: 90.751445, Detected number: 2, Expected: 0002
+174. Accuracy: 90.229885, Detected number: 5, Expected: 0003
+175. Accuracy: 90.285714, Detected number: 2, Expected: 0002
+176. Accuracy: 90.340909, Detected number: 7, Expected: 0007
+177. Accuracy: 89.830508, Detected number: 8, Expected: 0001
+178. Accuracy: 89.887640, Detected number: 8, Expected: 0008
+179. Accuracy: 89.944134, Detected number: 1, Expected: 0001
+180. Accuracy: 89.444444, Detected number: 2, Expected: 0008
+181. Accuracy: 89.502762, Detected number: 1, Expected: 0001
+182. Accuracy: 89.560440, Detected number: 8, Expected: 0008
+183. Accuracy: 89.617486, Detected number: 5, Expected: 0005
+184. Accuracy: 89.673913, Detected number: 0, Expected: 0000
+185. Accuracy: 89.729730, Detected number: 8, Expected: 0008
+186. Accuracy: 89.247312, Detected number: 4, Expected: 0009
+187. Accuracy: 89.304813, Detected number: 2, Expected: 0002
+188. Accuracy: 89.361702, Detected number: 5, Expected: 0005
+189. Accuracy: 89.417989, Detected number: 0, Expected: 0000
+190. Accuracy: 89.473684, Detected number: 1, Expected: 0001
+191. Accuracy: 89.528796, Detected number: 1, Expected: 0001
+192. Accuracy: 89.583333, Detected number: 1, Expected: 0001
+193. Accuracy: 89.637306, Detected number: 0, Expected: 0000
+194. Accuracy: 89.690722, Detected number: 9, Expected: 0009
+195. Accuracy: 89.743590, Detected number: 0, Expected: 0000
+196. Accuracy: 89.795918, Detected number: 3, Expected: 0003
+197. Accuracy: 89.340102, Detected number: 8, Expected: 0001
+198. Accuracy: 89.393939, Detected number: 6, Expected: 0006
+199. Accuracy: 89.447236, Detected number: 4, Expected: 0004
+200. Accuracy: 89.500000, Detected number: 2, Expected: 0002
+201. Accuracy: 89.552239, Detected number: 3, Expected: 0003
+202. Accuracy: 89.603960, Detected number: 6, Expected: 0006
+203. Accuracy: 89.655172, Detected number: 1, Expected: 0001
+204. Accuracy: 89.705882, Detected number: 1, Expected: 0001
+205. Accuracy: 89.756098, Detected number: 1, Expected: 0001
+206. Accuracy: 89.805825, Detected number: 3, Expected: 0003
+207. Accuracy: 89.855072, Detected number: 9, Expected: 0009
+208. Accuracy: 89.423077, Detected number: 3, Expected: 0005
+209. Accuracy: 89.473684, Detected number: 2, Expected: 0002
+210. Accuracy: 89.523810, Detected number: 9, Expected: 0009
+211. Accuracy: 89.573460, Detected number: 4, Expected: 0004
+212. Accuracy: 89.622642, Detected number: 5, Expected: 0005
+213. Accuracy: 89.671362, Detected number: 9, Expected: 0009
+214. Accuracy: 89.719626, Detected number: 3, Expected: 0003
+215. Accuracy: 89.767442, Detected number: 9, Expected: 0009
+216. Accuracy: 89.814815, Detected number: 0, Expected: 0000
+217. Accuracy: 89.861751, Detected number: 3, Expected: 0003
+218. Accuracy: 89.908257, Detected number: 6, Expected: 0006
+219. Accuracy: 89.954338, Detected number: 5, Expected: 0005
+220. Accuracy: 90.000000, Detected number: 5, Expected: 0005
+221. Accuracy: 90.045249, Detected number: 7, Expected: 0007
+222. Accuracy: 90.090090, Detected number: 2, Expected: 0002
+223. Accuracy: 90.134529, Detected number: 2, Expected: 0002
+224. Accuracy: 90.178571, Detected number: 7, Expected: 0007
+225. Accuracy: 90.222222, Detected number: 1, Expected: 0001
+226. Accuracy: 90.265487, Detected number: 2, Expected: 0002
+227. Accuracy: 90.308370, Detected number: 8, Expected: 0008
+228. Accuracy: 90.350877, Detected number: 4, Expected: 0004
+229. Accuracy: 90.393013, Detected number: 1, Expected: 0001
+230. Accuracy: 90.434783, Detected number: 7, Expected: 0007
+231. Accuracy: 90.476190, Detected number: 3, Expected: 0003
+232. Accuracy: 90.517241, Detected number: 3, Expected: 0003
+233. Accuracy: 90.557940, Detected number: 8, Expected: 0008
+234. Accuracy: 90.170940, Detected number: 9, Expected: 0008
+235. Accuracy: 90.212766, Detected number: 7, Expected: 0007
+236. Accuracy: 90.254237, Detected number: 9, Expected: 0009
+237. Accuracy: 90.295359, Detected number: 2, Expected: 0002
+238. Accuracy: 90.336134, Detected number: 2, Expected: 0002
+239. Accuracy: 90.376569, Detected number: 4, Expected: 0004
+240. Accuracy: 90.416667, Detected number: 1, Expected: 0001
+241. Accuracy: 90.456432, Detected number: 5, Expected: 0005
+242. Accuracy: 90.082645, Detected number: 8, Expected: 0009
+243. Accuracy: 90.123457, Detected number: 8, Expected: 0008
+244. Accuracy: 89.754098, Detected number: 4, Expected: 0007
+245. Accuracy: 89.795918, Detected number: 2, Expected: 0002
+246. Accuracy: 89.837398, Detected number: 3, Expected: 0003
+247. Accuracy: 89.878543, Detected number: 0, Expected: 0000
+248. Accuracy: 89.516129, Detected number: 2, Expected: 0004
+249. Accuracy: 89.558233, Detected number: 4, Expected: 0004
+250. Accuracy: 89.600000, Detected number: 2, Expected: 0002
+251. Accuracy: 89.641434, Detected number: 4, Expected: 0004
+252. Accuracy: 89.682540, Detected number: 1, Expected: 0001
+253. Accuracy: 89.723320, Detected number: 9, Expected: 0009
+254. Accuracy: 89.763780, Detected number: 5, Expected: 0005
+255. Accuracy: 89.803922, Detected number: 7, Expected: 0007
+256. Accuracy: 89.843750, Detected number: 7, Expected: 0007
+257. Accuracy: 89.883268, Detected number: 2, Expected: 0002
+258. Accuracy: 89.922481, Detected number: 8, Expected: 0008
+259. Accuracy: 89.961390, Detected number: 2, Expected: 0002
+260. Accuracy: 89.615385, Detected number: 0, Expected: 0006
+261. Accuracy: 89.655172, Detected number: 8, Expected: 0008
+262. Accuracy: 89.312977, Detected number: 3, Expected: 0005
+263. Accuracy: 89.353612, Detected number: 7, Expected: 0007
+264. Accuracy: 89.015152, Detected number: 3, Expected: 0007
+265. Accuracy: 89.056604, Detected number: 9, Expected: 0009
+266. Accuracy: 88.721805, Detected number: 8, Expected: 0001
+267. Accuracy: 88.764045, Detected number: 8, Expected: 0008
+268. Accuracy: 88.805970, Detected number: 1, Expected: 0001
+269. Accuracy: 88.847584, Detected number: 8, Expected: 0008
+270. Accuracy: 88.888889, Detected number: 0, Expected: 0000
+271. Accuracy: 88.929889, Detected number: 3, Expected: 0003
+272. Accuracy: 88.970588, Detected number: 0, Expected: 0000
+273. Accuracy: 89.010989, Detected number: 1, Expected: 0001
+274. Accuracy: 89.051095, Detected number: 9, Expected: 0009
+275. Accuracy: 89.090909, Detected number: 9, Expected: 0009
+276. Accuracy: 89.130435, Detected number: 4, Expected: 0004
+277. Accuracy: 89.169675, Detected number: 1, Expected: 0001
+278. Accuracy: 89.208633, Detected number: 8, Expected: 0008
+279. Accuracy: 89.247312, Detected number: 2, Expected: 0002
+280. Accuracy: 89.285714, Detected number: 1, Expected: 0001
+281. Accuracy: 89.323843, Detected number: 2, Expected: 0002
+282. Accuracy: 89.361702, Detected number: 9, Expected: 0009
+283. Accuracy: 89.399293, Detected number: 7, Expected: 0007
+284. Accuracy: 89.436620, Detected number: 5, Expected: 0005
+285. Accuracy: 89.473684, Detected number: 9, Expected: 0009
+286. Accuracy: 89.510490, Detected number: 2, Expected: 0002
+287. Accuracy: 89.547038, Detected number: 6, Expected: 0006
+288. Accuracy: 89.583333, Detected number: 4, Expected: 0004
+289. Accuracy: 89.619377, Detected number: 1, Expected: 0001
+290. Accuracy: 89.655172, Detected number: 5, Expected: 0005
+291. Accuracy: 89.690722, Detected number: 8, Expected: 0008
+292. Accuracy: 89.383562, Detected number: 3, Expected: 0002
+293. Accuracy: 89.419795, Detected number: 9, Expected: 0009
+294. Accuracy: 89.455782, Detected number: 2, Expected: 0002
+295. Accuracy: 89.491525, Detected number: 0, Expected: 0000
+296. Accuracy: 89.527027, Detected number: 4, Expected: 0004
+297. Accuracy: 89.562290, Detected number: 0, Expected: 0000
+298. Accuracy: 89.597315, Detected number: 0, Expected: 0000
+299. Accuracy: 89.632107, Detected number: 2, Expected: 0002
+300. Accuracy: 89.666667, Detected number: 8, Expected: 0008
+301. Accuracy: 89.700997, Detected number: 4, Expected: 0004
+302. Accuracy: 89.403974, Detected number: 2, Expected: 0007
+303. Accuracy: 89.438944, Detected number: 1, Expected: 0001
+304. Accuracy: 89.473684, Detected number: 2, Expected: 0002
+305. Accuracy: 89.508197, Detected number: 4, Expected: 0004
+306. Accuracy: 89.542484, Detected number: 0, Expected: 0000
+307. Accuracy: 89.576547, Detected number: 2, Expected: 0002
+308. Accuracy: 89.610390, Detected number: 7, Expected: 0007
+309. Accuracy: 89.644013, Detected number: 4, Expected: 0004
+310. Accuracy: 89.677419, Detected number: 3, Expected: 0003
+311. Accuracy: 89.710611, Detected number: 3, Expected: 0003
+312. Accuracy: 89.743590, Detected number: 0, Expected: 0000
+313. Accuracy: 89.776358, Detected number: 0, Expected: 0000
+314. Accuracy: 89.808917, Detected number: 3, Expected: 0003
+315. Accuracy: 89.841270, Detected number: 1, Expected: 0001
+316. Accuracy: 89.873418, Detected number: 9, Expected: 0009
+317. Accuracy: 89.905363, Detected number: 6, Expected: 0006
+318. Accuracy: 89.937107, Detected number: 5, Expected: 0005
+319. Accuracy: 89.968652, Detected number: 2, Expected: 0002
+320. Accuracy: 90.000000, Detected number: 5, Expected: 0005
+321. Accuracy: 90.031153, Detected number: 9, Expected: 0009
+322. Accuracy: 89.751553, Detected number: 7, Expected: 0002
+323. Accuracy: 89.783282, Detected number: 9, Expected: 0009
+324. Accuracy: 89.814815, Detected number: 3, Expected: 0003
+325. Accuracy: 89.846154, Detected number: 0, Expected: 0000
+326. Accuracy: 89.877301, Detected number: 4, Expected: 0004
+327. Accuracy: 89.908257, Detected number: 2, Expected: 0002
+328. Accuracy: 89.939024, Detected number: 0, Expected: 0000
+329. Accuracy: 89.969605, Detected number: 7, Expected: 0007
+330. Accuracy: 90.000000, Detected number: 1, Expected: 0001
+331. Accuracy: 90.030211, Detected number: 1, Expected: 0001
+332. Accuracy: 90.060241, Detected number: 2, Expected: 0002
+333. Accuracy: 90.090090, Detected number: 1, Expected: 0001
+334. Accuracy: 90.119760, Detected number: 5, Expected: 0005
+335. Accuracy: 90.149254, Detected number: 3, Expected: 0003
+336. Accuracy: 90.178571, Detected number: 3, Expected: 0003
+337. Accuracy: 90.207715, Detected number: 9, Expected: 0009
+338. Accuracy: 90.236686, Detected number: 7, Expected: 0007
+339. Accuracy: 90.265487, Detected number: 8, Expected: 0008
+340. Accuracy: 90.294118, Detected number: 6, Expected: 0006
+341. Accuracy: 90.029326, Detected number: 3, Expected: 0005
+342. Accuracy: 90.058480, Detected number: 6, Expected: 0006
+343. Accuracy: 89.795918, Detected number: 8, Expected: 0001
+344. Accuracy: 89.825581, Detected number: 3, Expected: 0003
+345. Accuracy: 89.855072, Detected number: 8, Expected: 0008
+346. Accuracy: 89.884393, Detected number: 1, Expected: 0001
+347. Accuracy: 89.913545, Detected number: 0, Expected: 0000
+348. Accuracy: 89.942529, Detected number: 5, Expected: 0005
+349. Accuracy: 89.971347, Detected number: 1, Expected: 0001
+350. Accuracy: 90.000000, Detected number: 3, Expected: 0003
+351. Accuracy: 89.743590, Detected number: 3, Expected: 0001
+352. Accuracy: 89.772727, Detected number: 5, Expected: 0005
+353. Accuracy: 89.518414, Detected number: 0, Expected: 0005
+354. Accuracy: 89.548023, Detected number: 6, Expected: 0006
+355. Accuracy: 89.577465, Detected number: 1, Expected: 0001
+356. Accuracy: 89.606742, Detected number: 8, Expected: 0008
+357. Accuracy: 89.635854, Detected number: 5, Expected: 0005
+358. Accuracy: 89.664804, Detected number: 1, Expected: 0001
+359. Accuracy: 89.693593, Detected number: 7, Expected: 0007
+360. Accuracy: 89.722222, Detected number: 9, Expected: 0009
+361. Accuracy: 89.750693, Detected number: 4, Expected: 0004
+362. Accuracy: 89.779006, Detected number: 6, Expected: 0006
+363. Accuracy: 89.807163, Detected number: 2, Expected: 0002
+364. Accuracy: 89.835165, Detected number: 2, Expected: 0002
+365. Accuracy: 89.863014, Detected number: 5, Expected: 0005
+366. Accuracy: 89.890710, Detected number: 0, Expected: 0000
+367. Accuracy: 89.918256, Detected number: 6, Expected: 0006
+368. Accuracy: 89.945652, Detected number: 5, Expected: 0005
+369. Accuracy: 89.972900, Detected number: 6, Expected: 0006
+370. Accuracy: 90.000000, Detected number: 3, Expected: 0003
+371. Accuracy: 90.026954, Detected number: 7, Expected: 0007
+372. Accuracy: 90.053763, Detected number: 2, Expected: 0002
+373. Accuracy: 90.080429, Detected number: 0, Expected: 0000
+374. Accuracy: 90.106952, Detected number: 8, Expected: 0008
+375. Accuracy: 90.133333, Detected number: 8, Expected: 0008
+376. Accuracy: 90.159574, Detected number: 5, Expected: 0005
+377. Accuracy: 90.185676, Detected number: 4, Expected: 0004
+378. Accuracy: 90.211640, Detected number: 1, Expected: 0001
+379. Accuracy: 90.237467, Detected number: 1, Expected: 0001
+380. Accuracy: 90.263158, Detected number: 4, Expected: 0004
+381. Accuracy: 90.288714, Detected number: 0, Expected: 0000
+382. Accuracy: 90.052356, Detected number: 7, Expected: 0003
+383. Accuracy: 90.078329, Detected number: 3, Expected: 0003
+384. Accuracy: 90.104167, Detected number: 7, Expected: 0007
+385. Accuracy: 90.129870, Detected number: 6, Expected: 0006
+386. Accuracy: 90.155440, Detected number: 1, Expected: 0001
+387. Accuracy: 90.180879, Detected number: 6, Expected: 0006
+388. Accuracy: 90.206186, Detected number: 2, Expected: 0002
+389. Accuracy: 90.231362, Detected number: 1, Expected: 0001
+390. Accuracy: 90.256410, Detected number: 9, Expected: 0009
+391. Accuracy: 90.281330, Detected number: 2, Expected: 0002
+392. Accuracy: 90.306122, Detected number: 8, Expected: 0008
+393. Accuracy: 90.330789, Detected number: 6, Expected: 0006
+394. Accuracy: 90.355330, Detected number: 1, Expected: 0001
+395. Accuracy: 90.379747, Detected number: 9, Expected: 0009
+396. Accuracy: 90.404040, Detected number: 5, Expected: 0005
+397. Accuracy: 90.428212, Detected number: 2, Expected: 0002
+398. Accuracy: 90.452261, Detected number: 5, Expected: 0005
+399. Accuracy: 90.476190, Detected number: 4, Expected: 0004
+400. Accuracy: 90.500000, Detected number: 4, Expected: 0004
+401. Accuracy: 90.523691, Detected number: 2, Expected: 0002
+402. Accuracy: 90.547264, Detected number: 8, Expected: 0008
+403. Accuracy: 90.570720, Detected number: 3, Expected: 0003
+404. Accuracy: 90.594059, Detected number: 8, Expected: 0008
+405. Accuracy: 90.617284, Detected number: 2, Expected: 0002
+406. Accuracy: 90.640394, Detected number: 4, Expected: 0004
+407. Accuracy: 90.663391, Detected number: 5, Expected: 0005
+408. Accuracy: 90.686275, Detected number: 0, Expected: 0000
+409. Accuracy: 90.709046, Detected number: 3, Expected: 0003
+410. Accuracy: 90.487805, Detected number: 8, Expected: 0001
+411. Accuracy: 90.510949, Detected number: 7, Expected: 0007
+412. Accuracy: 90.533981, Detected number: 7, Expected: 0007
+413. Accuracy: 90.314770, Detected number: 3, Expected: 0005
+414. Accuracy: 90.338164, Detected number: 7, Expected: 0007
+415. Accuracy: 90.361446, Detected number: 9, Expected: 0009
+416. Accuracy: 90.384615, Detected number: 7, Expected: 0007
+417. Accuracy: 90.167866, Detected number: 8, Expected: 0001
+418. Accuracy: 90.191388, Detected number: 9, Expected: 0009
+419. Accuracy: 90.214797, Detected number: 2, Expected: 0002
+420. Accuracy: 90.238095, Detected number: 1, Expected: 0001
+421. Accuracy: 90.261283, Detected number: 4, Expected: 0004
+422. Accuracy: 90.284360, Detected number: 2, Expected: 0002
+423. Accuracy: 90.307329, Detected number: 9, Expected: 0009
+424. Accuracy: 90.330189, Detected number: 2, Expected: 0002
+425. Accuracy: 90.352941, Detected number: 0, Expected: 0000
+426. Accuracy: 90.375587, Detected number: 4, Expected: 0004
+427. Accuracy: 90.398126, Detected number: 9, Expected: 0009
+428. Accuracy: 90.420561, Detected number: 1, Expected: 0001
+429. Accuracy: 90.442890, Detected number: 4, Expected: 0004
+430. Accuracy: 90.465116, Detected number: 8, Expected: 0008
+431. Accuracy: 90.487239, Detected number: 1, Expected: 0001
+432. Accuracy: 90.509259, Detected number: 8, Expected: 0008
+433. Accuracy: 90.300231, Detected number: 5, Expected: 0004
+434. Accuracy: 90.092166, Detected number: 8, Expected: 0005
+435. Accuracy: 90.114943, Detected number: 9, Expected: 0009
+436. Accuracy: 89.908257, Detected number: 9, Expected: 0008
+437. Accuracy: 89.931350, Detected number: 8, Expected: 0008
+438. Accuracy: 89.954338, Detected number: 3, Expected: 0003
+439. Accuracy: 89.977221, Detected number: 7, Expected: 0007
+440. Accuracy: 90.000000, Detected number: 6, Expected: 0006
+441. Accuracy: 90.022676, Detected number: 0, Expected: 0000
+442. Accuracy: 90.045249, Detected number: 0, Expected: 0000
+443. Accuracy: 90.067720, Detected number: 3, Expected: 0003
+444. Accuracy: 90.090090, Detected number: 0, Expected: 0000
+445. Accuracy: 90.112360, Detected number: 2, Expected: 0002
+446. Accuracy: 89.910314, Detected number: 0, Expected: 0006
+447. Accuracy: 89.932886, Detected number: 6, Expected: 0006
+448. Accuracy: 89.955357, Detected number: 4, Expected: 0004
+449. Accuracy: 89.755011, Detected number: 8, Expected: 0009
+450. Accuracy: 89.555556, Detected number: 5, Expected: 0003
+451. Accuracy: 89.578714, Detected number: 3, Expected: 0003
+452. Accuracy: 89.601770, Detected number: 3, Expected: 0003
+453. Accuracy: 89.403974, Detected number: 8, Expected: 0002
+454. Accuracy: 89.427313, Detected number: 3, Expected: 0003
+455. Accuracy: 89.450549, Detected number: 9, Expected: 0009
+456. Accuracy: 89.473684, Detected number: 1, Expected: 0001
+457. Accuracy: 89.496718, Detected number: 2, Expected: 0002
+458. Accuracy: 89.519651, Detected number: 6, Expected: 0006
+459. Accuracy: 89.542484, Detected number: 8, Expected: 0008
+460. Accuracy: 89.565217, Detected number: 0, Expected: 0000
+461. Accuracy: 89.587852, Detected number: 5, Expected: 0005
+462. Accuracy: 89.610390, Detected number: 6, Expected: 0006
+463. Accuracy: 89.632829, Detected number: 6, Expected: 0006
+464. Accuracy: 89.655172, Detected number: 6, Expected: 0006
+465. Accuracy: 89.677419, Detected number: 3, Expected: 0003
+466. Accuracy: 89.699571, Detected number: 8, Expected: 0008
+467. Accuracy: 89.721627, Detected number: 8, Expected: 0008
+468. Accuracy: 89.743590, Detected number: 2, Expected: 0002
+469. Accuracy: 89.765458, Detected number: 7, Expected: 0007
+470. Accuracy: 89.787234, Detected number: 5, Expected: 0005
+471. Accuracy: 89.808917, Detected number: 8, Expected: 0008
+472. Accuracy: 89.830508, Detected number: 9, Expected: 0009
+473. Accuracy: 89.852008, Detected number: 6, Expected: 0006
+474. Accuracy: 89.873418, Detected number: 1, Expected: 0001
+475. Accuracy: 89.894737, Detected number: 8, Expected: 0008
+476. Accuracy: 89.915966, Detected number: 4, Expected: 0004
+477. Accuracy: 89.937107, Detected number: 1, Expected: 0001
+478. Accuracy: 89.958159, Detected number: 2, Expected: 0002
+479. Accuracy: 89.979123, Detected number: 5, Expected: 0005
+480. Accuracy: 89.791667, Detected number: 8, Expected: 0009
+481. Accuracy: 89.812890, Detected number: 1, Expected: 0001
+482. Accuracy: 89.834025, Detected number: 9, Expected: 0009
+483. Accuracy: 89.855072, Detected number: 7, Expected: 0007
+484. Accuracy: 89.669421, Detected number: 3, Expected: 0005
+485. Accuracy: 89.690722, Detected number: 4, Expected: 0004
+486. Accuracy: 89.506173, Detected number: 3, Expected: 0000
+487. Accuracy: 89.527721, Detected number: 8, Expected: 0008
+488. Accuracy: 89.549180, Detected number: 9, Expected: 0009
+489. Accuracy: 89.366053, Detected number: 4, Expected: 0009
+490. Accuracy: 89.387755, Detected number: 1, Expected: 0001
+491. Accuracy: 89.409369, Detected number: 0, Expected: 0000
+492. Accuracy: 89.430894, Detected number: 5, Expected: 0005
+493. Accuracy: 89.452333, Detected number: 2, Expected: 0002
+494. Accuracy: 89.473684, Detected number: 3, Expected: 0003
+495. Accuracy: 89.494949, Detected number: 7, Expected: 0007
+496. Accuracy: 89.314516, Detected number: 2, Expected: 0008
+497. Accuracy: 89.336016, Detected number: 9, Expected: 0009
+498. Accuracy: 89.357430, Detected number: 4, Expected: 0004
+499. Accuracy: 89.378758, Detected number: 0, Expected: 0000
+500. Accuracy: 89.400000, Detected number: 6, Expected: 0006
+501. Accuracy: 89.421158, Detected number: 3, Expected: 0003
+502. Accuracy: 89.442231, Detected number: 9, Expected: 0009
+503. Accuracy: 89.264414, Detected number: 3, Expected: 0005
+504. Accuracy: 89.285714, Detected number: 2, Expected: 0002
+505. Accuracy: 89.306931, Detected number: 1, Expected: 0001
+506. Accuracy: 89.328063, Detected number: 3, Expected: 0003
+507. Accuracy: 89.349112, Detected number: 1, Expected: 0001
+508. Accuracy: 89.173228, Detected number: 8, Expected: 0003
+509. Accuracy: 89.194499, Detected number: 6, Expected: 0006
+510. Accuracy: 89.215686, Detected number: 5, Expected: 0005
+511. Accuracy: 89.041096, Detected number: 3, Expected: 0007
+512. Accuracy: 89.062500, Detected number: 4, Expected: 0004
+513. Accuracy: 89.083821, Detected number: 2, Expected: 0002
+514. Accuracy: 89.105058, Detected number: 2, Expected: 0002
+515. Accuracy: 89.126214, Detected number: 6, Expected: 0006
+516. Accuracy: 89.147287, Detected number: 3, Expected: 0003
+517. Accuracy: 89.168279, Detected number: 2, Expected: 0002
+518. Accuracy: 89.189189, Detected number: 6, Expected: 0006
+519. Accuracy: 89.210019, Detected number: 5, Expected: 0005
+520. Accuracy: 89.230769, Detected number: 4, Expected: 0004
+521. Accuracy: 89.251440, Detected number: 8, Expected: 0008
+522. Accuracy: 89.272031, Detected number: 9, Expected: 0009
+523. Accuracy: 89.101338, Detected number: 3, Expected: 0007
+524. Accuracy: 89.122137, Detected number: 1, Expected: 0001
+525. Accuracy: 89.142857, Detected number: 3, Expected: 0003
+526. Accuracy: 89.163498, Detected number: 0, Expected: 0000
+527. Accuracy: 89.184061, Detected number: 3, Expected: 0003
+528. Accuracy: 89.204545, Detected number: 8, Expected: 0008
+529. Accuracy: 89.224953, Detected number: 3, Expected: 0003
+530. Accuracy: 89.056604, Detected number: 5, Expected: 0001
+531. Accuracy: 89.077213, Detected number: 9, Expected: 0009
+532. Accuracy: 89.097744, Detected number: 3, Expected: 0003
+533. Accuracy: 89.118199, Detected number: 4, Expected: 0004
+534. Accuracy: 89.138577, Detected number: 4, Expected: 0004
+535. Accuracy: 89.158879, Detected number: 6, Expected: 0006
+536. Accuracy: 89.179104, Detected number: 4, Expected: 0004
+537. Accuracy: 89.199255, Detected number: 2, Expected: 0002
+538. Accuracy: 89.219331, Detected number: 1, Expected: 0001
+539. Accuracy: 89.239332, Detected number: 8, Expected: 0008
+540. Accuracy: 89.259259, Detected number: 2, Expected: 0002
+541. Accuracy: 89.279113, Detected number: 5, Expected: 0005
+542. Accuracy: 89.298893, Detected number: 4, Expected: 0004
+543. Accuracy: 89.318600, Detected number: 8, Expected: 0008
+544. Accuracy: 89.338235, Detected number: 8, Expected: 0008
+545. Accuracy: 89.357798, Detected number: 4, Expected: 0004
+546. Accuracy: 89.194139, Detected number: 3, Expected: 0000
+547. Accuracy: 89.213894, Detected number: 0, Expected: 0000
+548. Accuracy: 89.233577, Detected number: 2, Expected: 0002
+549. Accuracy: 89.253188, Detected number: 3, Expected: 0003
+550. Accuracy: 89.272727, Detected number: 2, Expected: 0002
+551. Accuracy: 89.110708, Detected number: 9, Expected: 0007
+552. Accuracy: 89.130435, Detected number: 7, Expected: 0007
+553. Accuracy: 89.150090, Detected number: 0, Expected: 0000
+554. Accuracy: 89.169675, Detected number: 8, Expected: 0008
+555. Accuracy: 89.189189, Detected number: 7, Expected: 0007
+556. Accuracy: 89.208633, Detected number: 4, Expected: 0004
+557. Accuracy: 89.228007, Detected number: 4, Expected: 0004
+558. Accuracy: 89.068100, Detected number: 9, Expected: 0007
+559. Accuracy: 89.087657, Detected number: 9, Expected: 0009
+560. Accuracy: 89.107143, Detected number: 6, Expected: 0006
+561. Accuracy: 89.126560, Detected number: 9, Expected: 0009
+562. Accuracy: 89.145907, Detected number: 0, Expected: 0000
+563. Accuracy: 89.165187, Detected number: 9, Expected: 0009
+564. Accuracy: 89.184397, Detected number: 8, Expected: 0008
+565. Accuracy: 89.203540, Detected number: 0, Expected: 0000
+566. Accuracy: 89.222615, Detected number: 4, Expected: 0004
+567. Accuracy: 89.241623, Detected number: 6, Expected: 0006
+568. Accuracy: 89.260563, Detected number: 0, Expected: 0000
+569. Accuracy: 89.103691, Detected number: 8, Expected: 0006
+570. Accuracy: 89.122807, Detected number: 3, Expected: 0003
+571. Accuracy: 89.141856, Detected number: 5, Expected: 0005
+572. Accuracy: 89.160839, Detected number: 4, Expected: 0004
+573. Accuracy: 89.179756, Detected number: 8, Expected: 0008
+574. Accuracy: 89.198606, Detected number: 3, Expected: 0003
+575. Accuracy: 89.217391, Detected number: 3, Expected: 0003
+576. Accuracy: 89.236111, Detected number: 9, Expected: 0009
+577. Accuracy: 89.254766, Detected number: 3, Expected: 0003
+578. Accuracy: 89.273356, Detected number: 3, Expected: 0003
+579. Accuracy: 89.291883, Detected number: 3, Expected: 0003
+580. Accuracy: 89.310345, Detected number: 7, Expected: 0007
+581. Accuracy: 89.328744, Detected number: 8, Expected: 0008
+582. Accuracy: 89.347079, Detected number: 0, Expected: 0000
+583. Accuracy: 89.193825, Detected number: 3, Expected: 0008
+584. Accuracy: 89.041096, Detected number: 8, Expected: 0002
+585. Accuracy: 89.059829, Detected number: 1, Expected: 0001
+586. Accuracy: 89.078498, Detected number: 7, Expected: 0007
+587. Accuracy: 89.097104, Detected number: 0, Expected: 0000
+588. Accuracy: 89.115646, Detected number: 6, Expected: 0006
+589. Accuracy: 88.964346, Detected number: 3, Expected: 0005
+590. Accuracy: 88.983051, Detected number: 4, Expected: 0004
+591. Accuracy: 89.001692, Detected number: 3, Expected: 0003
+592. Accuracy: 89.020270, Detected number: 8, Expected: 0008
+593. Accuracy: 89.038786, Detected number: 0, Expected: 0000
+594. Accuracy: 89.057239, Detected number: 9, Expected: 0009
+595. Accuracy: 89.075630, Detected number: 6, Expected: 0006
+596. Accuracy: 89.093960, Detected number: 3, Expected: 0003
+597. Accuracy: 89.112228, Detected number: 8, Expected: 0008
+598. Accuracy: 89.130435, Detected number: 0, Expected: 0000
+599. Accuracy: 89.148581, Detected number: 9, Expected: 0009
+600. Accuracy: 89.166667, Detected number: 9, Expected: 0009
+601. Accuracy: 89.184692, Detected number: 6, Expected: 0006
+602. Accuracy: 89.202658, Detected number: 8, Expected: 0008
+603. Accuracy: 89.220564, Detected number: 6, Expected: 0006
+604. Accuracy: 89.072848, Detected number: 5, Expected: 0008
+605. Accuracy: 89.090909, Detected number: 5, Expected: 0005
+606. Accuracy: 89.108911, Detected number: 7, Expected: 0007
+607. Accuracy: 89.126853, Detected number: 8, Expected: 0008
+608. Accuracy: 89.144737, Detected number: 6, Expected: 0006
+609. Accuracy: 89.162562, Detected number: 0, Expected: 0000
+610. Accuracy: 89.180328, Detected number: 2, Expected: 0002
+611. Accuracy: 89.034370, Detected number: 6, Expected: 0004
+612. Accuracy: 89.052288, Detected number: 0, Expected: 0000
+613. Accuracy: 89.070147, Detected number: 2, Expected: 0002
+614. Accuracy: 89.087948, Detected number: 2, Expected: 0002
+615. Accuracy: 89.105691, Detected number: 3, Expected: 0003
+616. Accuracy: 89.123377, Detected number: 1, Expected: 0001
+617. Accuracy: 89.141005, Detected number: 9, Expected: 0009
+618. Accuracy: 88.996764, Detected number: 8, Expected: 0007
+619. Accuracy: 89.014540, Detected number: 5, Expected: 0005
+620. Accuracy: 88.870968, Detected number: 8, Expected: 0001
+621. Accuracy: 88.888889, Detected number: 0, Expected: 0000
+622. Accuracy: 88.906752, Detected number: 8, Expected: 0008
+623. Accuracy: 88.924559, Detected number: 4, Expected: 0004
+624. Accuracy: 88.942308, Detected number: 6, Expected: 0006
+625. Accuracy: 88.960000, Detected number: 2, Expected: 0002
+626. Accuracy: 88.817891, Detected number: 4, Expected: 0006
+627. Accuracy: 88.835726, Detected number: 7, Expected: 0007
+628. Accuracy: 88.694268, Detected number: 4, Expected: 0009
+629. Accuracy: 88.712242, Detected number: 3, Expected: 0003
+630. Accuracy: 88.730159, Detected number: 2, Expected: 0002
+631. Accuracy: 88.748019, Detected number: 9, Expected: 0009
+632. Accuracy: 88.765823, Detected number: 8, Expected: 0008
+633. Accuracy: 88.783570, Detected number: 2, Expected: 0002
+634. Accuracy: 88.801262, Detected number: 2, Expected: 0002
+635. Accuracy: 88.818898, Detected number: 9, Expected: 0009
+636. Accuracy: 88.836478, Detected number: 2, Expected: 0002
+637. Accuracy: 88.697017, Detected number: 9, Expected: 0007
+638. Accuracy: 88.714734, Detected number: 3, Expected: 0003
+639. Accuracy: 88.575900, Detected number: 8, Expected: 0005
+640. Accuracy: 88.593750, Detected number: 9, Expected: 0009
+641. Accuracy: 88.455538, Detected number: 3, Expected: 0001
+642. Accuracy: 88.473520, Detected number: 8, Expected: 0008
+643. Accuracy: 88.491446, Detected number: 0, Expected: 0000
+644. Accuracy: 88.509317, Detected number: 2, Expected: 0002
+645. Accuracy: 88.527132, Detected number: 0, Expected: 0000
+646. Accuracy: 88.544892, Detected number: 5, Expected: 0005
+647. Accuracy: 88.562597, Detected number: 2, Expected: 0002
+648. Accuracy: 88.425926, Detected number: 3, Expected: 0001
+649. Accuracy: 88.443760, Detected number: 3, Expected: 0003
+650. Accuracy: 88.461538, Detected number: 7, Expected: 0007
+651. Accuracy: 88.479263, Detected number: 6, Expected: 0006
+652. Accuracy: 88.496933, Detected number: 7, Expected: 0007
+653. Accuracy: 88.361409, Detected number: 8, Expected: 0001
+654. Accuracy: 88.379205, Detected number: 2, Expected: 0002
+655. Accuracy: 88.396947, Detected number: 5, Expected: 0005
+656. Accuracy: 88.414634, Detected number: 8, Expected: 0008
+657. Accuracy: 88.432268, Detected number: 0, Expected: 0000
+658. Accuracy: 88.449848, Detected number: 3, Expected: 0003
+659. Accuracy: 88.315630, Detected number: 3, Expected: 0007
+660. Accuracy: 88.181818, Detected number: 8, Expected: 0002
+661. Accuracy: 88.199697, Detected number: 4, Expected: 0004
+662. Accuracy: 88.217523, Detected number: 0, Expected: 0000
+663. Accuracy: 88.235294, Detected number: 9, Expected: 0009
+664. Accuracy: 88.102410, Detected number: 5, Expected: 0001
+665. Accuracy: 88.120301, Detected number: 8, Expected: 0008
+666. Accuracy: 88.138138, Detected number: 6, Expected: 0006
+667. Accuracy: 88.155922, Detected number: 7, Expected: 0007
+668. Accuracy: 88.173653, Detected number: 7, Expected: 0007
+669. Accuracy: 88.191330, Detected number: 4, Expected: 0004
+670. Accuracy: 88.208955, Detected number: 3, Expected: 0003
+671. Accuracy: 88.226528, Detected number: 4, Expected: 0004
+672. Accuracy: 88.244048, Detected number: 9, Expected: 0009
+673. Accuracy: 88.261516, Detected number: 1, Expected: 0001
+674. Accuracy: 88.278932, Detected number: 9, Expected: 0009
+675. Accuracy: 88.296296, Detected number: 5, Expected: 0005
+676. Accuracy: 88.165680, Detected number: 8, Expected: 0001
+677. Accuracy: 88.183161, Detected number: 7, Expected: 0007
+678. Accuracy: 88.200590, Detected number: 3, Expected: 0003
+679. Accuracy: 88.217968, Detected number: 9, Expected: 0009
+680. Accuracy: 88.235294, Detected number: 7, Expected: 0007
+681. Accuracy: 88.252570, Detected number: 6, Expected: 0006
+682. Accuracy: 88.269795, Detected number: 9, Expected: 0009
+683. Accuracy: 88.286969, Detected number: 1, Expected: 0001
+684. Accuracy: 88.304094, Detected number: 3, Expected: 0003
+685. Accuracy: 88.175182, Detected number: 4, Expected: 0007
+686. Accuracy: 88.192420, Detected number: 8, Expected: 0008
+687. Accuracy: 88.209607, Detected number: 3, Expected: 0003
+688. Accuracy: 88.226744, Detected number: 3, Expected: 0003
+689. Accuracy: 88.243832, Detected number: 6, Expected: 0006
+690. Accuracy: 88.115942, Detected number: 9, Expected: 0007
+691. Accuracy: 88.133140, Detected number: 2, Expected: 0002
+692. Accuracy: 88.150289, Detected number: 8, Expected: 0008
+693. Accuracy: 88.167388, Detected number: 5, Expected: 0005
+694. Accuracy: 88.184438, Detected number: 8, Expected: 0008
+695. Accuracy: 88.201439, Detected number: 5, Expected: 0005
+696. Accuracy: 88.218391, Detected number: 1, Expected: 0001
+697. Accuracy: 88.235294, Detected number: 1, Expected: 0001
+698. Accuracy: 88.252149, Detected number: 4, Expected: 0004
+699. Accuracy: 88.268956, Detected number: 4, Expected: 0004
+700. Accuracy: 88.285714, Detected number: 3, Expected: 0003
+701. Accuracy: 88.302425, Detected number: 1, Expected: 0001
+702. Accuracy: 88.319088, Detected number: 0, Expected: 0000
+703. Accuracy: 88.335704, Detected number: 7, Expected: 0007
+704. Accuracy: 88.210227, Detected number: 3, Expected: 0007
+705. Accuracy: 88.226950, Detected number: 0, Expected: 0000
+706. Accuracy: 88.243626, Detected number: 7, Expected: 0007
+707. Accuracy: 88.260255, Detected number: 9, Expected: 0009
+708. Accuracy: 88.135593, Detected number: 9, Expected: 0004
+709. Accuracy: 88.152327, Detected number: 4, Expected: 0004
+710. Accuracy: 88.169014, Detected number: 8, Expected: 0008
+711. Accuracy: 88.185654, Detected number: 5, Expected: 0005
+712. Accuracy: 88.202247, Detected number: 5, Expected: 0005
+713. Accuracy: 88.078541, Detected number: 9, Expected: 0004
+714. Accuracy: 88.095238, Detected number: 0, Expected: 0000
+715. Accuracy: 88.111888, Detected number: 8, Expected: 0008
+716. Accuracy: 88.128492, Detected number: 2, Expected: 0002
+717. Accuracy: 88.145049, Detected number: 1, Expected: 0001
+718. Accuracy: 88.022284, Detected number: 2, Expected: 0000
+719. Accuracy: 88.038943, Detected number: 8, Expected: 0008
+720. Accuracy: 88.055556, Detected number: 4, Expected: 0004
+721. Accuracy: 87.933426, Detected number: 8, Expected: 0005
+722. Accuracy: 87.950139, Detected number: 0, Expected: 0000
+723. Accuracy: 87.966805, Detected number: 4, Expected: 0004
+724. Accuracy: 87.983425, Detected number: 0, Expected: 0000
+725. Accuracy: 88.000000, Detected number: 6, Expected: 0006
+726. Accuracy: 88.016529, Detected number: 1, Expected: 0001
+727. Accuracy: 87.895461, Detected number: 3, Expected: 0007
+728. Accuracy: 87.912088, Detected number: 3, Expected: 0003
+729. Accuracy: 87.928669, Detected number: 2, Expected: 0002
+730. Accuracy: 87.945205, Detected number: 6, Expected: 0006
+731. Accuracy: 87.961696, Detected number: 7, Expected: 0007
+732. Accuracy: 87.978142, Detected number: 2, Expected: 0002
+733. Accuracy: 87.994543, Detected number: 6, Expected: 0006
+734. Accuracy: 88.010899, Detected number: 9, Expected: 0009
+735. Accuracy: 88.027211, Detected number: 3, Expected: 0003
+736. Accuracy: 88.043478, Detected number: 1, Expected: 0001
+737. Accuracy: 88.059701, Detected number: 4, Expected: 0004
+738. Accuracy: 88.075881, Detected number: 6, Expected: 0006
+739. Accuracy: 88.092016, Detected number: 2, Expected: 0002
+740. Accuracy: 88.108108, Detected number: 5, Expected: 0005
+741. Accuracy: 87.989204, Detected number: 9, Expected: 0004
+742. Accuracy: 88.005391, Detected number: 2, Expected: 0002
+743. Accuracy: 88.021534, Detected number: 0, Expected: 0000
+744. Accuracy: 88.037634, Detected number: 6, Expected: 0006
+745. Accuracy: 88.053691, Detected number: 2, Expected: 0002
+746. Accuracy: 88.069705, Detected number: 1, Expected: 0001
+747. Accuracy: 87.951807, Detected number: 9, Expected: 0007
+748. Accuracy: 87.967914, Detected number: 3, Expected: 0003
+749. Accuracy: 87.983979, Detected number: 4, Expected: 0004
+750. Accuracy: 88.000000, Detected number: 1, Expected: 0001
+751. Accuracy: 88.015979, Detected number: 0, Expected: 0000
+752. Accuracy: 88.031915, Detected number: 5, Expected: 0005
+753. Accuracy: 88.047809, Detected number: 4, Expected: 0004
+754. Accuracy: 88.063660, Detected number: 3, Expected: 0003
+755. Accuracy: 88.079470, Detected number: 1, Expected: 0001
+756. Accuracy: 88.095238, Detected number: 1, Expected: 0001
+757. Accuracy: 88.110964, Detected number: 7, Expected: 0007
+758. Accuracy: 88.126649, Detected number: 4, Expected: 0004
+759. Accuracy: 88.142292, Detected number: 9, Expected: 0009
+760. Accuracy: 88.157895, Detected number: 9, Expected: 0009
+761. Accuracy: 88.173456, Detected number: 4, Expected: 0004
+762. Accuracy: 88.188976, Detected number: 8, Expected: 0008
+763. Accuracy: 88.204456, Detected number: 4, Expected: 0004
+764. Accuracy: 88.219895, Detected number: 0, Expected: 0000
+765. Accuracy: 88.235294, Detected number: 2, Expected: 0002
+766. Accuracy: 88.250653, Detected number: 4, Expected: 0004
+767. Accuracy: 88.265971, Detected number: 5, Expected: 0005
+768. Accuracy: 88.281250, Detected number: 1, Expected: 0001
+769. Accuracy: 88.166450, Detected number: 8, Expected: 0001
+770. Accuracy: 88.181818, Detected number: 6, Expected: 0006
+771. Accuracy: 88.197147, Detected number: 4, Expected: 0004
+772. Accuracy: 88.212435, Detected number: 7, Expected: 0007
+773. Accuracy: 88.227684, Detected number: 1, Expected: 0001
+774. Accuracy: 88.242894, Detected number: 9, Expected: 0009
+775. Accuracy: 88.258065, Detected number: 4, Expected: 0004
+776. Accuracy: 88.273196, Detected number: 2, Expected: 0002
+777. Accuracy: 88.288288, Detected number: 4, Expected: 0004
+778. Accuracy: 88.303342, Detected number: 1, Expected: 0001
+779. Accuracy: 88.318357, Detected number: 5, Expected: 0005
+780. Accuracy: 88.333333, Detected number: 5, Expected: 0005
+781. Accuracy: 88.348271, Detected number: 3, Expected: 0003
+782. Accuracy: 88.363171, Detected number: 8, Expected: 0008
+783. Accuracy: 88.378033, Detected number: 3, Expected: 0003
+784. Accuracy: 88.392857, Detected number: 1, Expected: 0001
+785. Accuracy: 88.407643, Detected number: 4, Expected: 0004
+786. Accuracy: 88.422392, Detected number: 5, Expected: 0005
+787. Accuracy: 88.437103, Detected number: 6, Expected: 0006
+788. Accuracy: 88.451777, Detected number: 8, Expected: 0008
+789. Accuracy: 88.466413, Detected number: 9, Expected: 0009
+790. Accuracy: 88.481013, Detected number: 4, Expected: 0004
+791. Accuracy: 88.369153, Detected number: 5, Expected: 0001
+792. Accuracy: 88.383838, Detected number: 5, Expected: 0005
+793. Accuracy: 88.398487, Detected number: 3, Expected: 0003
+794. Accuracy: 88.413098, Detected number: 8, Expected: 0008
+795. Accuracy: 88.427673, Detected number: 0, Expected: 0000
+796. Accuracy: 88.442211, Detected number: 3, Expected: 0003
+797. Accuracy: 88.456713, Detected number: 2, Expected: 0002
+798. Accuracy: 88.471178, Detected number: 5, Expected: 0005
+799. Accuracy: 88.485607, Detected number: 1, Expected: 0001
+800. Accuracy: 88.500000, Detected number: 2, Expected: 0002
+801. Accuracy: 88.514357, Detected number: 8, Expected: 0008
+802. Accuracy: 88.528678, Detected number: 3, Expected: 0003
+803. Accuracy: 88.542964, Detected number: 4, Expected: 0004
+804. Accuracy: 88.557214, Detected number: 4, Expected: 0004
+805. Accuracy: 88.571429, Detected number: 0, Expected: 0000
+806. Accuracy: 88.585608, Detected number: 8, Expected: 0008
+807. Accuracy: 88.599752, Detected number: 8, Expected: 0008
+808. Accuracy: 88.613861, Detected number: 3, Expected: 0003
+809. Accuracy: 88.627936, Detected number: 3, Expected: 0003
+810. Accuracy: 88.641975, Detected number: 1, Expected: 0001
+811. Accuracy: 88.532676, Detected number: 2, Expected: 0007
+812. Accuracy: 88.546798, Detected number: 3, Expected: 0003
+813. Accuracy: 88.560886, Detected number: 5, Expected: 0005
+814. Accuracy: 88.574939, Detected number: 9, Expected: 0009
+815. Accuracy: 88.588957, Detected number: 6, Expected: 0006
+816. Accuracy: 88.602941, Detected number: 3, Expected: 0003
+817. Accuracy: 88.616891, Detected number: 2, Expected: 0002
+818. Accuracy: 88.630807, Detected number: 6, Expected: 0006
+819. Accuracy: 88.644689, Detected number: 1, Expected: 0001
+820. Accuracy: 88.658537, Detected number: 3, Expected: 0003
+821. Accuracy: 88.672351, Detected number: 6, Expected: 0006
+822. Accuracy: 88.686131, Detected number: 0, Expected: 0000
+823. Accuracy: 88.699878, Detected number: 7, Expected: 0007
+824. Accuracy: 88.713592, Detected number: 2, Expected: 0002
+825. Accuracy: 88.727273, Detected number: 1, Expected: 0001
+826. Accuracy: 88.740920, Detected number: 7, Expected: 0007
+827. Accuracy: 88.633615, Detected number: 8, Expected: 0001
+828. Accuracy: 88.647343, Detected number: 4, Expected: 0004
+829. Accuracy: 88.661037, Detected number: 2, Expected: 0002
+830. Accuracy: 88.674699, Detected number: 4, Expected: 0004
+831. Accuracy: 88.688327, Detected number: 2, Expected: 0002
+832. Accuracy: 88.701923, Detected number: 1, Expected: 0001
+833. Accuracy: 88.595438, Detected number: 9, Expected: 0007
+834. Accuracy: 88.609113, Detected number: 9, Expected: 0009
+835. Accuracy: 88.622754, Detected number: 6, Expected: 0006
+836. Accuracy: 88.636364, Detected number: 1, Expected: 0001
+837. Accuracy: 88.649940, Detected number: 1, Expected: 0001
+838. Accuracy: 88.663484, Detected number: 2, Expected: 0002
+839. Accuracy: 88.676996, Detected number: 4, Expected: 0004
+840. Accuracy: 88.690476, Detected number: 8, Expected: 0008
+841. Accuracy: 88.703924, Detected number: 1, Expected: 0001
+842. Accuracy: 88.717340, Detected number: 7, Expected: 0007
+843. Accuracy: 88.730724, Detected number: 7, Expected: 0007
+844. Accuracy: 88.744076, Detected number: 4, Expected: 0004
+845. Accuracy: 88.639053, Detected number: 3, Expected: 0008
+846. Accuracy: 88.652482, Detected number: 0, Expected: 0000
+847. Accuracy: 88.665880, Detected number: 7, Expected: 0007
+848. Accuracy: 88.679245, Detected number: 3, Expected: 0003
+849. Accuracy: 88.692580, Detected number: 1, Expected: 0001
+850. Accuracy: 88.705882, Detected number: 3, Expected: 0003
+851. Accuracy: 88.719154, Detected number: 1, Expected: 0001
+852. Accuracy: 88.732394, Detected number: 0, Expected: 0000
+853. Accuracy: 88.745604, Detected number: 7, Expected: 0007
+854. Accuracy: 88.758782, Detected number: 7, Expected: 0007
+855. Accuracy: 88.771930, Detected number: 0, Expected: 0000
+856. Accuracy: 88.785047, Detected number: 3, Expected: 0003
+857. Accuracy: 88.798133, Detected number: 5, Expected: 0005
+858. Accuracy: 88.694639, Detected number: 3, Expected: 0005
+859. Accuracy: 88.707800, Detected number: 2, Expected: 0002
+860. Accuracy: 88.720930, Detected number: 7, Expected: 0007
+861. Accuracy: 88.734030, Detected number: 6, Expected: 0006
+862. Accuracy: 88.747100, Detected number: 6, Expected: 0006
+863. Accuracy: 88.760139, Detected number: 9, Expected: 0009
+864. Accuracy: 88.773148, Detected number: 2, Expected: 0002
+865. Accuracy: 88.786127, Detected number: 8, Expected: 0008
+866. Accuracy: 88.799076, Detected number: 3, Expected: 0003
+867. Accuracy: 88.811995, Detected number: 5, Expected: 0005
+868. Accuracy: 88.824885, Detected number: 2, Expected: 0002
+869. Accuracy: 88.837745, Detected number: 2, Expected: 0002
+870. Accuracy: 88.850575, Detected number: 5, Expected: 0005
+871. Accuracy: 88.863375, Detected number: 6, Expected: 0006
+872. Accuracy: 88.876147, Detected number: 0, Expected: 0000
+873. Accuracy: 88.888889, Detected number: 8, Expected: 0008
+874. Accuracy: 88.901602, Detected number: 2, Expected: 0002
+875. Accuracy: 88.914286, Detected number: 9, Expected: 0009
+876. Accuracy: 88.926941, Detected number: 2, Expected: 0002
+877. Accuracy: 88.939567, Detected number: 8, Expected: 0008
+878. Accuracy: 88.952164, Detected number: 8, Expected: 0008
+879. Accuracy: 88.964733, Detected number: 8, Expected: 0008
+880. Accuracy: 88.977273, Detected number: 8, Expected: 0008
+881. Accuracy: 88.989784, Detected number: 7, Expected: 0007
+882. Accuracy: 89.002268, Detected number: 4, Expected: 0004
+883. Accuracy: 88.901472, Detected number: 7, Expected: 0009
+884. Accuracy: 88.914027, Detected number: 3, Expected: 0003
+885. Accuracy: 88.926554, Detected number: 0, Expected: 0000
+886. Accuracy: 88.939052, Detected number: 6, Expected: 0006
+887. Accuracy: 88.951522, Detected number: 6, Expected: 0006
+888. Accuracy: 88.963964, Detected number: 3, Expected: 0003
+889. Accuracy: 88.976378, Detected number: 2, Expected: 0002
+890. Accuracy: 88.876404, Detected number: 5, Expected: 0001
+891. Accuracy: 88.776655, Detected number: 5, Expected: 0003
+892. Accuracy: 88.677130, Detected number: 8, Expected: 0002
+893. Accuracy: 88.689810, Detected number: 2, Expected: 0002
+894. Accuracy: 88.702461, Detected number: 9, Expected: 0009
+895. Accuracy: 88.715084, Detected number: 3, Expected: 0003
+896. Accuracy: 88.727679, Detected number: 0, Expected: 0000
+897. Accuracy: 88.740245, Detected number: 0, Expected: 0000
+898. Accuracy: 88.752784, Detected number: 5, Expected: 0005
+899. Accuracy: 88.765295, Detected number: 7, Expected: 0007
+900. Accuracy: 88.777778, Detected number: 8, Expected: 0008
+901. Accuracy: 88.679245, Detected number: 3, Expected: 0001
+902. Accuracy: 88.691796, Detected number: 4, Expected: 0004
+903. Accuracy: 88.704319, Detected number: 4, Expected: 0004
+904. Accuracy: 88.716814, Detected number: 6, Expected: 0006
+905. Accuracy: 88.729282, Detected number: 0, Expected: 0000
+906. Accuracy: 88.741722, Detected number: 2, Expected: 0002
+907. Accuracy: 88.754135, Detected number: 9, Expected: 0009
+908. Accuracy: 88.766520, Detected number: 1, Expected: 0001
+909. Accuracy: 88.778878, Detected number: 4, Expected: 0004
+910. Accuracy: 88.791209, Detected number: 7, Expected: 0007
+911. Accuracy: 88.803513, Detected number: 4, Expected: 0004
+912. Accuracy: 88.815789, Detected number: 7, Expected: 0007
+913. Accuracy: 88.828039, Detected number: 3, Expected: 0003
+914. Accuracy: 88.840263, Detected number: 9, Expected: 0009
+915. Accuracy: 88.852459, Detected number: 8, Expected: 0008
+916. Accuracy: 88.864629, Detected number: 8, Expected: 0008
+917. Accuracy: 88.876772, Detected number: 4, Expected: 0004
+918. Accuracy: 88.888889, Detected number: 7, Expected: 0007
+919. Accuracy: 88.900979, Detected number: 1, Expected: 0001
+920. Accuracy: 88.913043, Detected number: 2, Expected: 0002
+921. Accuracy: 88.925081, Detected number: 1, Expected: 0001
+922. Accuracy: 88.937093, Detected number: 2, Expected: 0002
+923. Accuracy: 88.949079, Detected number: 2, Expected: 0002
+924. Accuracy: 88.961039, Detected number: 3, Expected: 0003
+925. Accuracy: 88.972973, Detected number: 2, Expected: 0002
+926. Accuracy: 88.984881, Detected number: 3, Expected: 0003
+927. Accuracy: 88.996764, Detected number: 2, Expected: 0002
+928. Accuracy: 89.008621, Detected number: 3, Expected: 0003
+929. Accuracy: 89.020452, Detected number: 9, Expected: 0009
+930. Accuracy: 89.032258, Detected number: 1, Expected: 0001
+931. Accuracy: 88.936627, Detected number: 1, Expected: 0007
+932. Accuracy: 88.948498, Detected number: 4, Expected: 0004
+933. Accuracy: 88.960343, Detected number: 0, Expected: 0000
+934. Accuracy: 88.972163, Detected number: 3, Expected: 0003
+935. Accuracy: 88.983957, Detected number: 5, Expected: 0005
+936. Accuracy: 88.888889, Detected number: 8, Expected: 0005
+937. Accuracy: 88.900747, Detected number: 8, Expected: 0008
+938. Accuracy: 88.912580, Detected number: 6, Expected: 0006
+939. Accuracy: 88.924388, Detected number: 3, Expected: 0003
+940. Accuracy: 88.936170, Detected number: 2, Expected: 0002
+941. Accuracy: 88.947928, Detected number: 6, Expected: 0006
+942. Accuracy: 88.959660, Detected number: 7, Expected: 0007
+943. Accuracy: 88.971368, Detected number: 6, Expected: 0006
+944. Accuracy: 88.983051, Detected number: 6, Expected: 0006
+945. Accuracy: 88.994709, Detected number: 3, Expected: 0003
+946. Accuracy: 89.006342, Detected number: 2, Expected: 0002
+947. Accuracy: 89.017951, Detected number: 7, Expected: 0007
+948. Accuracy: 88.924051, Detected number: 9, Expected: 0008
+949. Accuracy: 88.935722, Detected number: 1, Expected: 0001
+950. Accuracy: 88.947368, Detected number: 1, Expected: 0001
+951. Accuracy: 88.853838, Detected number: 4, Expected: 0007
+952. Accuracy: 88.760504, Detected number: 3, Expected: 0005
+953. Accuracy: 88.667366, Detected number: 4, Expected: 0006
+954. Accuracy: 88.679245, Detected number: 4, Expected: 0004
+955. Accuracy: 88.691099, Detected number: 9, Expected: 0009
+956. Accuracy: 88.702929, Detected number: 5, Expected: 0005
+957. Accuracy: 88.610240, Detected number: 3, Expected: 0001
+958. Accuracy: 88.622129, Detected number: 3, Expected: 0003
+959. Accuracy: 88.633994, Detected number: 3, Expected: 0003
+960. Accuracy: 88.645833, Detected number: 4, Expected: 0004
+961. Accuracy: 88.553590, Detected number: 1, Expected: 0007
+962. Accuracy: 88.565489, Detected number: 8, Expected: 0008
+963. Accuracy: 88.577362, Detected number: 9, Expected: 0009
+964. Accuracy: 88.589212, Detected number: 1, Expected: 0001
+965. Accuracy: 88.601036, Detected number: 1, Expected: 0001
+966. Accuracy: 88.509317, Detected number: 0, Expected: 0006
+967. Accuracy: 88.521200, Detected number: 9, Expected: 0009
+968. Accuracy: 88.533058, Detected number: 1, Expected: 0001
+969. Accuracy: 88.544892, Detected number: 4, Expected: 0004
+970. Accuracy: 88.556701, Detected number: 4, Expected: 0004
+971. Accuracy: 88.568486, Detected number: 5, Expected: 0005
+972. Accuracy: 88.580247, Detected number: 4, Expected: 0004
+973. Accuracy: 88.591984, Detected number: 0, Expected: 0000
+974. Accuracy: 88.603696, Detected number: 6, Expected: 0006
+975. Accuracy: 88.615385, Detected number: 2, Expected: 0002
+976. Accuracy: 88.627049, Detected number: 2, Expected: 0002
+977. Accuracy: 88.638690, Detected number: 3, Expected: 0003
+978. Accuracy: 88.650307, Detected number: 1, Expected: 0001
+979. Accuracy: 88.661900, Detected number: 5, Expected: 0005
+980. Accuracy: 88.673469, Detected number: 1, Expected: 0001
+981. Accuracy: 88.685015, Detected number: 2, Expected: 0002
+982. Accuracy: 88.696538, Detected number: 0, Expected: 0000
+983. Accuracy: 88.606307, Detected number: 2, Expected: 0003
+984. Accuracy: 88.617886, Detected number: 8, Expected: 0008
+985. Accuracy: 88.629442, Detected number: 1, Expected: 0001
+986. Accuracy: 88.640974, Detected number: 2, Expected: 0002
+987. Accuracy: 88.652482, Detected number: 6, Expected: 0006
+988. Accuracy: 88.663968, Detected number: 7, Expected: 0007
+989. Accuracy: 88.675430, Detected number: 1, Expected: 0001
+990. Accuracy: 88.686869, Detected number: 6, Expected: 0006
+991. Accuracy: 88.698285, Detected number: 2, Expected: 0002
+992. Accuracy: 88.709677, Detected number: 3, Expected: 0003
+993. Accuracy: 88.721047, Detected number: 9, Expected: 0009
+994. Accuracy: 88.732394, Detected number: 0, Expected: 0000
+995. Accuracy: 88.743719, Detected number: 1, Expected: 0001
+996. Accuracy: 88.654618, Detected number: 0, Expected: 0002
+997. Accuracy: 88.665998, Detected number: 2, Expected: 0002
+998. Accuracy: 88.677355, Detected number: 0, Expected: 0000
+999. Accuracy: 88.688689, Detected number: 8, Expected: 0008
+1000. Accuracy: 88.700000, Detected number: 9, Expected: 0009
+Accuracy: 88.700000
+$stop called at time : 9000235 ns : File "D:/downloads/neuralNetwork-master/neuralNetwork-master/Tut-6/src/fpga/tb/top_sim.v" Line 358
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:02:13 . Memory (MB): peak = 1603.496 ; gain = 0.000
